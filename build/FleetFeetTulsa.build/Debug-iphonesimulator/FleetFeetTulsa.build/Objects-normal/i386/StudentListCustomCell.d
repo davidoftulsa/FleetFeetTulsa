@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.h
+  /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m \
+  /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.h

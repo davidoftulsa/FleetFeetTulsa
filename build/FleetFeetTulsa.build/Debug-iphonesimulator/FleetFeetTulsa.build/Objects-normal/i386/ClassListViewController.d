@@ -1,22 +1,22 @@
 dependencies: \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/Parse.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFConstants.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFGeoPoint.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFObject.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFACL.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFPointer.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFPush.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFQuery.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFUser.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_Facebook.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBLoginDialog.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBDialog.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBRequest.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBConnect.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFFile.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFQueryTableViewController.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_MBProgressHUD.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/ClassListViewController.h \
-  /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.h
+  /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/Parse.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFConstants.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFGeoPoint.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFObject.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFACL.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFPointer.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFPush.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFQuery.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFUser.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_Facebook.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBLoginDialog.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBDialog.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBRequest.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBConnect.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFFile.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFQueryTableViewController.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h \
+  /Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_MBProgressHUD.h \
+  /Users/davidwright/FleetFeetTulsa/ClassListViewController.h \
+  /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.h
