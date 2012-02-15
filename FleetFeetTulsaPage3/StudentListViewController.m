@@ -227,6 +227,8 @@
                                 initWithNibName:@"ClassListViewController" bundle:nil andCustomerId:customerId]
                                                          autorelease];
     
+    
+    
     [self.navigationController pushViewController:classListViewController animated:YES];
     
 }

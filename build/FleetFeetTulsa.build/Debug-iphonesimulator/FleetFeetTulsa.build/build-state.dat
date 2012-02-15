@@ -4,11 +4,11 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist
 cProcessPCH /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa normal i386
@@ -739,7 +739,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaf5cef38fee5b441^6553fe38fee5b441^---0#1#0#--18"Check dependencies36"795F4F95-8415-4714-9B36-54F3D8E8B0B8-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5b609b0c0ce6b441^5d35d30c0ce6b441^---0#1#0#--18"Check dependencies36"F72B5E7B-CE0D-4801-9595-20D2EFE9D340-
 
 CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s350536976.052676
