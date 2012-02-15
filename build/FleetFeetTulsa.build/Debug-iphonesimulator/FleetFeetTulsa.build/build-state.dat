@@ -1,1132 +1,0 @@
-TFleetFeetTulsa
-v4
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist
-cProcessPCH /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa normal i386
-cGenerateDSYMFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-cCopyStringsFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings FleetFeetTulsaPage3/en.lproj/InfoPlist.strings
-cCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.xib
-cCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.xib
-cCpResource spinnerBackground.png build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png
-cCpResource checkmark.png build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png
-cCpResource checkMarkNoBackGround.png build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png
-cCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.xib
-cCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.xib
-cCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.xib
-cTouch /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
-c000000004F31C7F00000000000000110
-t1328662512
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004E72F1F200000000002F4210
-t1316155890
-s3097104
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004E72F23F00000000002050D0
-t1316155967
-s2117840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004E72F1CC0000000000245480
-t1316155852
-s2380928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004E78059F00000000000859A0
-t1316488607
-s547232
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F2960000000000353830
-t1316156054
-s3487792
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c000000004E72F3C800000000000998C0
-t1316156360
-s628928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004E72F69C00000000001A9D20
-t1316157084
-s1744160
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Security.framework/Security
-c000000004E72F185000000000007F9C0
-t1316155781
-s522688
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004E72F177000000000006C8A0
-t1316155767
-s444576
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004E7806AB00000000008F7390
-t1316488875
-s9401232
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/lib/libz.1.1.3.dylib
-c000000004E72EDC60000000000013460
-t1316154822
-s78944
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.h
-c000000004F2ED1690000000000000620
-t1328468329
-s1568
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m
-c000000004F2ED16900000000000039CB
-t1328468329
-s14795
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.xib
-c000000004F2C433C0000000000001DD5
-t1328300860
-s7637
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../Parse.framework/Parse
-c000000004F2C433C000000000046CE44
-t1328300860
-s4640324
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.h
-c000000004F3349ED00000000000002CF
-t1328761325
-s719
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m
-c000000004F334A35000000000000103C
-t1328761397
-s4156
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.h
-c000000004F2C433C000000000000028A
-t1328300860
-s650
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m
-c000000004F2C433C00000000000002D7
-t1328300860
-s727
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.xib
-c000000004F2ED16900000000000038B0
-t1328468329
-s14512
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.h
-c000000004F2FEFB40000000000000230
-t1328541620
-s560
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m
-c000000004F2FF5AF0000000000000901
-t1328543151
-s2305
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.xib
-c000000004F2D56E00000000000002927
-t1328371424
-s10535
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch
-c000000004F2C433C0000000000000155
-t1328300860
-s341
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.h
-c000000004F30128C0000000000000210
-t1328550540
-s528
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m
-c000000004F30128E00000000000002C0
-t1328550542
-s704
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.xib
-c000000004F33484A0000000000002AA8
-t1328760906
-s10920
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.h
-c000000004F30A726000000000000037B
-t1328588582
-s891
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m
-c000000004F3324FA0000000000001CE2
-t1328751866
-s7394
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.xib
-c000000004F2AC2800000000000001BC0
-t1328202368
-s7104
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/en.lproj/InfoPlist.strings
-c000000004F2C433C000000000000002D
-t1328300860
-s45
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m
-c000000004F2C433C0000000000000212
-t1328300860
-s530
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFACL.h
-c000000004F2C433C0000000000000513
-t1328300860
-s1299
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFConstants.h
-c000000004F2C433C0000000000001540
-t1328300860
-s5440
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFFile.h
-c000000004F2C433C0000000000000D69
-t1328300860
-s3433
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFGeoPoint.h
-c000000004F2C433C0000000000000934
-t1328300860
-s2356
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFObject.h
-c000000004F2C433C00000000000020D2
-t1328300860
-s8402
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFPointer.h
-c000000004F2C433C000000000000037F
-t1328300860
-s895
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFPush.h
-c000000004F2C433C0000000000002132
-t1328300860
-s8498
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFQuery.h
-c000000004F2C433C0000000000003250
-t1328300860
-s12880
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFQueryTableViewController.h
-c000000004F2C433C0000000000001236
-t1328300860
-s4662
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PFUser.h
-c000000004F2C433C00000000000036D8
-t1328300860
-s14040
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
-c000000004F2C433C000000000000092F
-t1328300860
-s2351
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBConnect.h
-c000000004F2C433C00000000000002BA
-t1328300860
-s698
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBDialog.h
-c000000004F2C433C0000000000001264
-t1328300860
-s4708
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBLoginDialog.h
-c000000004F2C433C0000000000000580
-t1328300860
-s1408
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_FBRequest.h
-c000000004F2C433C0000000000000CFB
-t1328300860
-s3323
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_Facebook.h
-c000000004F2C433C0000000000000DD6
-t1328300860
-s3542
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/PF_MBProgressHUD.h
-c000000004F2C433C0000000000003155
-t1328300860
-s12629
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/Parse.framework/Headers/Parse.h
-c000000004F2C433C0000000000000710
-t1328300860
-s1808
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app
-t1328844178
-s476
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM
-t1328844178
-s102
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/ClassListCustomCell.nib
-t1328844178
-s2162
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/ClassListViewController.nib
-t1328844178
-s1154
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/EmailEntryViewController.nib
-t1328844178
-s1688
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-t1328844177
-s484444
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist
-t1328844173
-s847
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/PkgInfo
-t1328844173
-s8
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/StudentListCustomCell.nib
-t1328844178
-s1702
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/StudentListViewController.nib
-t1328844178
-s1133
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png
-t1328844178
-s47965
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png
-t1328844178
-s50481
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings
-t1328844178
-s42
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png
-t1328844178
-s4942
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o
-t1328844176
-s54956
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o
-t1328844176
-s43196
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o
-t1328844176
-s99724
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o
-t1328844176
-s49176
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/FleetFeetTulsa.LinkFileList
-c000000004F348D8D0000000000000461
-t1328844173
-s1121
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o
-t1328844176
-s42028
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o
-t1328844177
-s66496
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o
-t1328844176
-s3356
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/checkMarkNoBackGround.png
-c000000004F2ED169000000000000BB5D
-t1328468329
-s47965
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/checkmark.png
-c000000004F2C433C000000000000C531
-t1328300860
-s50481
-
-N/Users/davidwright/Downloads/FleetFeetTulsaPage3/spinnerBackground.png
-c000000004F2C433C000000000000134E
-t1328300860
-s4942
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.h
-c000000004F2ED1690000000000000620
-t1328468329
-s1568
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m
-c000000004F2ED16900000000000039CB
-t1328468329
-s14795
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.xib
-c000000004F2C433C0000000000001DD5
-t1328300860
-s7637
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../Parse.framework/Parse
-c000000004F2C433C000000000046CE44
-t1328300860
-s4640324
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.h
-c000000004F3349ED00000000000002CF
-t1328761325
-s719
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m
-c000000004F334A35000000000000103C
-t1328761397
-s4156
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.h
-c000000004F2C433C000000000000028A
-t1328300860
-s650
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m
-c000000004F2C433C00000000000002D7
-t1328300860
-s727
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.xib
-c000000004F2ED16900000000000038B0
-t1328468329
-s14512
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.h
-c000000004F2FEFB40000000000000230
-t1328541620
-s560
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m
-c000000004F2FF5AF0000000000000901
-t1328543151
-s2305
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.xib
-c000000004F2D56E00000000000002927
-t1328371424
-s10535
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch
-c000000004F2C433C0000000000000155
-t1328300860
-s341
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.h
-c000000004F30128C0000000000000210
-t1328550540
-s528
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m
-c000000004F30128E00000000000002C0
-t1328550542
-s704
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.xib
-c000000004F33484A0000000000002AA8
-t1328760906
-s10920
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.h
-c000000004F30A726000000000000037B
-t1328588582
-s891
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m
-c000000004F3324FA0000000000001CE2
-t1328751866
-s7394
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.xib
-c000000004F2AC2800000000000001BC0
-t1328202368
-s7104
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/en.lproj/InfoPlist.strings
-c000000004F2C433C000000000000002D
-t1328300860
-s45
-
-N/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m
-c000000004F2C433C0000000000000212
-t1328300860
-s530
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFACL.h
-c000000004F2C433C0000000000000513
-t1328300860
-s1299
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFConstants.h
-c000000004F2C433C0000000000001540
-t1328300860
-s5440
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFFile.h
-c000000004F2C433C0000000000000D69
-t1328300860
-s3433
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFGeoPoint.h
-c000000004F2C433C0000000000000934
-t1328300860
-s2356
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFObject.h
-c000000004F2C433C00000000000020D2
-t1328300860
-s8402
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFPointer.h
-c000000004F2C433C000000000000037F
-t1328300860
-s895
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFPush.h
-c000000004F2C433C0000000000002132
-t1328300860
-s8498
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFQuery.h
-c000000004F2C433C0000000000003250
-t1328300860
-s12880
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFQueryTableViewController.h
-c000000004F2C433C0000000000001236
-t1328300860
-s4662
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PFUser.h
-c000000004F2C433C00000000000036D8
-t1328300860
-s14040
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
-c000000004F2C433C000000000000092F
-t1328300860
-s2351
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBConnect.h
-c000000004F2C433C00000000000002BA
-t1328300860
-s698
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBDialog.h
-c000000004F2C433C0000000000001264
-t1328300860
-s4708
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBLoginDialog.h
-c000000004F2C433C0000000000000580
-t1328300860
-s1408
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_FBRequest.h
-c000000004F2C433C0000000000000CFB
-t1328300860
-s3323
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_Facebook.h
-c000000004F2C433C0000000000000DD6
-t1328300860
-s3542
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/PF_MBProgressHUD.h
-c000000004F2C433C0000000000003155
-t1328300860
-s12629
-
-N/Users/davidwright/FleetFeetTulsa/Parse.framework/Headers/Parse.h
-c000000004F2C433C0000000000000710
-t1328300860
-s1808
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app
-t1328921304
-s476
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM
-t1328921304
-s102
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/ClassListCustomCell.nib
-t1328844178
-s2162
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/ClassListViewController.nib
-t1328844178
-s1154
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/EmailEntryViewController.nib
-t1328844178
-s1688
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-t1328921304
-s483752
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist
-t1328844173
-s847
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/PkgInfo
-t1328844173
-s8
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/StudentListCustomCell.nib
-t1328844178
-s1702
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/StudentListViewController.nib
-t1328844178
-s1133
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png
-t1328844178
-s47965
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png
-t1328844178
-s50481
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings
-t1328844178
-s42
-
-N/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png
-t1328844178
-s4942
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o
-t1328921303
-s54916
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o
-t1328921303
-s43156
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o
-t1328921304
-s99628
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o
-t1328921304
-s49128
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/FleetFeetTulsa.LinkFileList
-c000000004F35BAD700000000000003F8
-t1328921303
-s1016
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o
-t1328921304
-s41980
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o
-t1328921304
-s66416
-
-N/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o
-t1328921303
-s3308
-
-N/Users/davidwright/FleetFeetTulsa/checkMarkNoBackGround.png
-c000000004F2ED169000000000000BB5D
-t1328468329
-s47965
-
-N/Users/davidwright/FleetFeetTulsa/checkmark.png
-c000000004F2C433C000000000000C531
-t1328300860
-s50481
-
-N/Users/davidwright/FleetFeetTulsa/spinnerBackground.png
-c000000004F2C433C000000000000134E
-t1328300860
-s4942
-
-N/var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch.pth
-t1328844175
-s3926020
-
-N/var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth
-t1328921303
-s3925884
-
-NFleetFeetTulsaPage3/FleetFeetTulsa-Info.plist
-c000000004F2C433C00000000000004B8
-t1328300860
-s1208
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m
-r0
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m
-r0
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m
-r0
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m
-r0
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m
-r0
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m
-r0
-
-CBuild AST from /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m
-r0
-
-CBuild AST from /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5b609b0c0ce6b441^5d35d30c0ce6b441^---0#1#0#--18"Check dependencies36"F72B5E7B-CE0D-4801-9595-20D2EFE9D340-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.052676
-e350536976.702713
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m93a60d10c5e4b441^b8e5b310c5e4b441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m0000000000000000^3010"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/AppDelegate.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o36"FC6996EE-3E7E-4352-A001-805116DE7DAF-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614103.767847
-e350614103.942867
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m78b5c457f2e5b441^0b61f157f2e5b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m0000000000000000^2815"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o FleetFeetTulsaPage3/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/AppDelegate.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/AppDelegate.o36"D191C31D-8424-4C4D-8F39-3F37BB25252F-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.778242
-e350536976.834884
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m6c5cc710c5e4b441^b2bad510c5e4b441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m0000000000000000^3050"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o FleetFeetTulsaPage3/ClassListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o36"D8245302-46F6-411C-AD53-FA3A89D81880-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614103.944116
-e350614104.000431
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.mf5d5f157f2e5b441^fc1b0058f2e5b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m0000000000000000^2855"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o FleetFeetTulsaPage3/ClassListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListCustomCell.o36"CE17E5D1-E286-4532-9C87-6261643A2C15-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.704215
-e350536976.882848
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m8868b410c5e4b441^de01e210c5e4b441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m0000000000000000^3076"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o36"346A60E4-F45C-4B05-BB3D-6CDFD8BFF968-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614103.941411
-e350614104.115664
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m3126f157f2e5b441^d49b1d58f2e5b441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m0000000000000000^2881"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o FleetFeetTulsaPage3/../ClassListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/ClassListViewController.o36"05988371-0CD8-4A54-9736-0EFEA8FF33C7-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.836206
-e350536976.906166
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m3334d610c5e4b441^8ffae710c5e4b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m0000000000000000^3075"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o FleetFeetTulsaPage3/EmailEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o36"BAE7A8CB-3073-4ED9-B1FB-14DC29CA9EE3-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614104.001746
-e350614104.070266
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m53930058f2e5b441^adde1158f2e5b441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m0000000000000000^2880"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o FleetFeetTulsaPage3/EmailEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/EmailEntryViewController.o36"58E28E8E-8F79-42A9-BA47-5333A321AD60-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.884180
-e350536976.944251
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.mfe7de210c5e4b441^1bbaf110c5e4b441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m0000000000000000^3060"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o FleetFeetTulsaPage3/StudentListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o36"523E492F-3B38-46A5-BD88-BA4090659955-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614104.071571
-e350614104.140136
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m8b711258f2e5b441^fef02358f2e5b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m0000000000000000^2865"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o FleetFeetTulsaPage3/StudentListCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListCustomCell.o36"D3FA3DFE-8E89-4D2A-9C61-325CBB9BB145-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.907597
-e350536977.023633
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m3d81e810c5e4b441^d21b0611c5e4b441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m0000000000000000^3080"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o FleetFeetTulsaPage3/StudentListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o36"DDC097F4-47C6-46A6-8BE9-53257051E950-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614104.117014
-e350614104.227024
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m55151e58f2e5b441^081f3a58f2e5b441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m0000000000000000^2885"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o FleetFeetTulsaPage3/StudentListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/StudentListViewController.o36"B824E11D-7754-49BC-B196-A124C0361976-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536976.051427
-e350536976.776887
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m3a790d10c5e4b441^2db5c610c5e4b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m0000000000000000^2975"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.d -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/main.m -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o36"AE3720A0-3BB3-47C8-AEA6-D7F73A054DB6-
-
-CCompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614103.767848
-e350614103.939699
-r1
-xCompileC
-xbuild/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o
-x/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m67b5c457f2e5b441^a5a3f057f2e5b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m0000000000000000^2780"CompileC build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o FleetFeetTulsaPage3/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -include /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch -MMD -MT dependencies -MF /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.d -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/main.m -o /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/main.o36"D4189A7C-9E23-4B40-98E3-AACAA241E370-
-
-CCompileXIB /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.xib
-s350536978.041977
-e350536978.280592
-r1
-xCompileXIB
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compiling /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.xibf2d10a12c5e4b441^dfe04712c5e4b441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.xib0000000000000000^776"CompileXIB FleetFeetTulsaPage3/../ClassListViewController.xib    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/ClassListViewController.nib /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/../ClassListViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"8B81289C-FA66-433F-AB60-33D320EF3962-
-
-CCompileXIB /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.xib
-s350536978.060285
-e350536978.464670
-r1
-xCompileXIB
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.xib27830f12c5e4b441^a0ff7612c5e4b441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.xib0000000000000000^758"CompileXIB FleetFeetTulsaPage3/ClassListCustomCell.xib    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/ClassListCustomCell.nib /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/ClassListCustomCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"BECA455F-F6AA-4DBF-B89E-F87AEE939D6D-
-
-CCompileXIB /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.xib
-s350536978.299638
-e350536978.677280
-r1
-xCompileXIB
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compiling /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.xib2eca4c12c5e4b441^1173ad12c5e4b441^-1260"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)-0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.xib0000000000000000^773"CompileXIB FleetFeetTulsaPage3/EmailEntryViewController.xib    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/EmailEntryViewController.nib /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/EmailEntryViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"B5BF9018-1BE2-48F0-A1E1-5E6E256B4ECE-
-
-CCompileXIB /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.xib
-s350536978.468101
-e350536978.527746
-r1
-xCompileXIB
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compiling /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.xib79587812c5e4b441^e1268712c5e4b441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.xib0000000000000000^764"CompileXIB FleetFeetTulsaPage3/StudentListCustomCell.xib    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/StudentListCustomCell.nib /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListCustomCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"33BF90F3-3859-4E7B-950B-EE83B02A4F08-
-
-CCompileXIB /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.xib
-s350536978.529020
-e350536978.652397
-r1
-xCompileXIB
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compiling /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.xib02848712c5e4b441^1310a712c5e4b441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.xib0000000000000000^776"CompileXIB FleetFeetTulsaPage3/StudentListViewController.xib    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/StudentListViewController.nib /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/StudentListViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"5CE7232B-D023-4E02-84CF-78CB3D1FCEAF-
-
-CCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/../ClassListViewController.xib
-r0
-
-CCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/ClassListCustomCell.xib
-r0
-
-CCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/EmailEntryViewController.xib
-r0
-
-CCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListCustomCell.xib
-r0
-
-CCompileXIB /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/StudentListViewController.xib
-r0
-
-CCopyStringsFile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings FleetFeetTulsaPage3/en.lproj/InfoPlist.strings
-s350536978.041440
-e350536978.059029
-r1
-xCopyStringsFile
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings
-xFleetFeetTulsaPage3/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy FleetFeetTulsaPage3/en.lproj/InfoPlist.stringsfab40a12c5e4b441^4f210f12c5e4b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/en.lproj/InfoPlist.strings0000000000000000^569"CopyStringsFile build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings FleetFeetTulsaPage3/en.lproj/InfoPlist.strings    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj -- FleetFeetTulsaPage3/en.lproj/InfoPlist.strings36"DD771CEC-19EE-4454-856A-9951E454CB59-
-
-CCopyStringsFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/en.lproj/InfoPlist.strings FleetFeetTulsaPage3/en.lproj/InfoPlist.strings
-r0
-
-CCpResource checkMarkNoBackGround.png build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png
-s350536978.295620
-e350536978.298386
-r1
-xCpResource
-xcheckMarkNoBackGround.png
-xbuild/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png33c24b12c5e4b441^c66d4c12c5e4b441^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png00f45070ddffdf42^580"CpResource checkMarkNoBackGround.png build/Debug-iphonesimulator/FleetFeetTulsa.app/checkMarkNoBackGround.png    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/davidwright/Downloads/FleetFeetTulsaPage3/checkMarkNoBackGround.png /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app36"5EF79D16-6DB2-4E4C-9520-03989211B01F-
-
-CCpResource checkmark.png build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png
-s350536978.289994
-e350536978.294344
-r1
-xCpResource
-xcheckmark.png
-xbuild/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png59524a12c5e4b441^5a684b12c5e4b441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png00f45070ddffdf42^544"CpResource checkmark.png build/Debug-iphonesimulator/FleetFeetTulsa.app/checkmark.png    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/davidwright/Downloads/FleetFeetTulsaPage3/checkmark.png /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app36"3B964EA2-B6B5-4346-BC35-84EBB2FCC251-
-
-CCpResource spinnerBackground.png build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png
-s350536978.284065
-e350536978.287032
-r1
-xCpResource
-xspinnerBackground.png
-xbuild/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.pngd9d14812c5e4b441^72874912c5e4b441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png00f45070ddffdf42^568"CpResource spinnerBackground.png build/Debug-iphonesimulator/FleetFeetTulsa.app/spinnerBackground.png    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/davidwright/Downloads/FleetFeetTulsaPage3/spinnerBackground.png /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app36"8C9A799B-C7CA-4215-A97E-8BA4EEAD5665-
-
-CGenerateDSYMFile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-s350536977.931506
-e350536978.032369
-r1
-xGenerateDSYMFile
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Generating /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM8e8fee11c5e4b441^13490812c5e4b441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM00f45070ddffdf42^565"GenerateDSYMFile build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM36"E6E56B15-35E7-4FE6-A4A4-D1DCA4087159-
-
-CGenerateDSYMFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-s350614104.316525
-e350614104.386685
-r1
-xGenerateDSYMFile
-x/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM
-x/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Generating /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYMc43e5158f2e5b441^93fe6258f2e5b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM/0000000000000000^520"GenerateDSYMFile build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa    cd /Users/davidwright/FleetFeetTulsa    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa -o /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app.dSYM36"DB67468C-E1A9-4108-828F-A4D1660448C9-
-
-CLd /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa normal i386
-s350536977.031135
-e350536977.923793
-r1
-xLd
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-xnormal
-xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa1c240811c5e4b441^f17eec11c5e4b441^---0#0#0#--1391"Ld build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa normal i386    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -filelist /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/FleetFeetTulsa.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -framework CoreLocation -framework QuartzCore -framework Security -lz.1.1.3 -framework MobileCoreServices -framework SystemConfiguration -framework CFNetwork -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -framework Parse -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa36"D8D56C91-9BD1-44A8-8B18-0294D759BAB0-
-
-CLd /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa normal i386
-s350614104.233493
-e350614104.309737
-r1
-xLd
-x/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa
-xnormal
-xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa6de33b58f2e5b441^2b4c4f58f2e5b441^---0#0#0#--1301"Ld build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa normal i386    cd /Users/davidwright/FleetFeetTulsa    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -filelist /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/Objects-normal/i386/FleetFeetTulsa.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -framework CoreLocation -framework QuartzCore -framework Security -lz.1.1.3 -framework MobileCoreServices -framework SystemConfiguration -framework CFNetwork -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -framework Parse -o /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/FleetFeetTulsa36"2E9EB25E-A790-4136-846E-1FFC4405032D-
-
-CProcessInfoPlistFile /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist
-s350536973.563870
-e350536973.568970
-r1
-xProcessInfoPlistFile
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist
-xFleetFeetTulsaPage3/FleetFeetTulsa-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Process FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist2ac7900dc5e4b441^59c3910dc5e4b441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist0000000000000000^675"ProcessInfoPlistFile build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist -genpkginfo /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist36"B3D38742-225B-49DD-A6A0-CDB18E7427A3-
-
-CProcessInfoPlistFile /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app/Info.plist FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist
-r0
-
-CProcessPCH /Users/davidwright/Library/Developer/Xcode/DerivedData/FleetFeetTulsa-adialipitpsbfienaapsvomkglum/Index/PrecompiledHeaders/FleetFeetTulsa-Prefix-fyajfzzvmeireicmlnvsybmcchfy_ast/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/davidwright/Library/Developer/Xcode/DerivedData/FleetFeetTulsa-blkbadihiocdxpbtokqikhiqlubk/Index/PrecompiledHeaders/FleetFeetTulsa-Prefix-hdyykagupqhthlfzsedfhnorxfgv_ast/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350536973.577313
-e350536976.044182
-r1
-xProcessPCH
-x/var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch.pth
-xFleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Precompile FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch83f9930dc5e4b441^ca4e0b10c5e4b441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch0000000000000000^2976"ProcessPCH /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/include -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator -F/Users/davidwright/Downloads/FleetFeetTulsaPage3 -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch -o /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-agcnkqjhlyyhvkgkhaphblsgreji/FleetFeetTulsa-Prefix.pch.d36"79D94AAB-B908-42DE-8D7B-F627C716D823-
-
-CProcessPCH /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350614103.430151
-e350614103.760001
-r1
-xProcessPCH
-x/var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth
-xFleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Precompile FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch17616e57f2e5b441^84b8c257f2e5b441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch0000000000000000^2811"ProcessPCH /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/davidwright/FleetFeetTulsa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-generated-files.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-own-target-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-all-target-headers.hmap -iquote /Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/FleetFeetTulsa-project-headers.hmap -I/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/include -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources/i386 -I/Users/davidwright/FleetFeetTulsa/build/FleetFeetTulsa.build/Debug-iphonesimulator/FleetFeetTulsa.build/DerivedSources -F/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator -F/Users/davidwright/FleetFeetTulsa -c /Users/davidwright/FleetFeetTulsa/FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch -o /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/b0/d4rgtnwd0zq390dmx31jtf180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FleetFeetTulsa-Prefix-glmptmpmnwrbemfsqalkvebmnyow/FleetFeetTulsa-Prefix.pch.d36"DA0CBA54-C0E0-46DC-88D6-4504C67F00FE-
-
-CTouch /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app
-s350536978.685971
-e350536978.774658
-r1
-xTouch
-x/Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Touch /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app3ab1af12c5e4b441^d15dc612c5e4b441^---0#0#0#--358"Touch build/Debug-iphonesimulator/FleetFeetTulsa.app    cd /Users/davidwright/Downloads/FleetFeetTulsaPage3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/davidwright/Downloads/FleetFeetTulsaPage3/build/Debug-iphonesimulator/FleetFeetTulsa.app36"09A3E570-BAEB-4192-A68F-6A0CE194B88D-
-
-CTouch /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app
-s350614104.410638
-e350614104.419611
-r1
-xTouch
-x/Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.appe04b6958f2e5b441^556d6b58f2e5b441^---0#0#0#--328"Touch build/Debug-iphonesimulator/FleetFeetTulsa.app    cd /Users/davidwright/FleetFeetTulsa    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/davidwright/FleetFeetTulsa/build/Debug-iphonesimulator/FleetFeetTulsa.app36"2F070CC6-962B-4598-8994-DD77C527522C-
-
