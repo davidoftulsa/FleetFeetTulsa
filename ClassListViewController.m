@@ -7,7 +7,7 @@
 #import <Parse/Parse.h>
 #import "ClassListViewController.h"
 #import "ClassListCustomCell.h"
-//#import "AppDelegate.h"
+#import "AppDelegate.h"
 
 
 @implementation ClassListViewController
@@ -209,14 +209,9 @@
     
     BOOL existingCheckIn =  NO;
     BOOL userAtValidLocation =  NO;
-    //AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
     
     PFObject *customerClass = [customerCalendarClasses objectAtIndex:[[myTableView indexPathForSelectedRow] row]];
-    
-    //PFQuery *checkInQuery = [PFQuery queryWithClassName:@"CheckIn"];
-    //[checkInQuery whereKey:@"ClassOfferingId" equalTo:[customerClass objectForKey:@"ClassOfferingId"]];
-    //[checkInQuery whereKey:@"CustomerId" equalTo:appDelegate.customerId];
-    //NSArray *existingCheckIns= [checkInQuery findObjects:nil];
     
     for (PFObject *pfo in customerClassCheckIns)
     {
@@ -261,17 +256,29 @@
             [newCheckIn save];
             [self.customerClassCheckIns addObject:newCheckIn];
             
+            /*
             UIAlertView *alert = [[UIAlertView alloc]
                                   initWithTitle: @"Success"
                                   message: @"You are checked in to the class."
                                   delegate: nil
-                                  cancelButtonTitle:@"OK"
-                                  otherButtonTitles:nil];
+                                  cancelButtonTitle:@"Check-In to another class"
+                                  otherButtonTitles:@"Logout",nil];
+            */
+            UIActionSheet *successActionSheet = [[UIActionSheet alloc]
+                                                 initWithTitle:@"Check-In Successful" 
+                                                 delegate:self 
+                                                 cancelButtonTitle:@"Logout"
+                                                 destructiveButtonTitle:nil 
+                                                 otherButtonTitles:@"Check-In to another class", nil];
+            [successActionSheet setCancelButtonIndex:0];
+            
+            
             [self.tableView reloadData];
             
             [df1 release];
-            [alert show];
-            [alert release];
+            [successActionSheet showInView:self.view];
+            [successActionSheet release];
+           
         } else {
             
             if(existingCheckIn==YES){
@@ -373,6 +380,7 @@
             PFQuery *customerClassCheckInsQuery = [PFQuery queryWithClassName:@"CheckIn"];
             [customerClassCheckInsQuery whereKey:@"CustomerId" equalTo:self.customerId];
             [customerClassCheckInsQuery whereKey:@"CheckInDate" equalTo:dateString];
+            [customerClassCheckInsQuery orderByAscending:@"ClassTime"];
            
             [self setCustomerClassCheckIns: [NSMutableArray arrayWithArray:[customerClassCheckInsQuery findObjects:nil]]];
             
@@ -393,6 +401,19 @@
     
     
 }
+
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 1) {
+        
+        AppDelegate *myAppDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
+        
+        [myAppDelegate.navController popToRootViewControllerAnimated:YES];
+        
+    } 
+    
+}
+
 
     
     

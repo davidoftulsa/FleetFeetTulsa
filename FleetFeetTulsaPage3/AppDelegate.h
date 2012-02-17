@@ -34,4 +34,7 @@
 
 @property (strong, nonatomic) EmailEntryViewController *emailEntryViewController;
 
+@property (strong, nonatomic) UINavigationController *navController;
+
+
 @end

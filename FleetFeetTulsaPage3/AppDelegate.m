@@ -13,11 +13,13 @@
 
 @synthesize window = _window;
 @synthesize emailEntryViewController;
+@synthesize navController;
 
 - (void)dealloc
 {
     [_window release];
     [emailEntryViewController release];
+    [navController release];
     [super dealloc];
 }
 
@@ -28,7 +30,7 @@
     self.emailEntryViewController = [[[EmailEntryViewController alloc] initWithNibName:@"EmailEntryViewController" bundle:nil] autorelease];
     
     // emailEntryViewController = [[EmailEntryViewController alloc]init];
-    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:emailEntryViewController];
+    self.navController = [[UINavigationController alloc]initWithRootViewController:emailEntryViewController];
     
     //[navController pushViewController:self.emailEntryViewController animated:YES];
     
