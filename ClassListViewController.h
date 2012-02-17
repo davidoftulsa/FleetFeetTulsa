@@ -10,7 +10,6 @@
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface ClassListViewController : UITableViewController <CLLocationManagerDelegate>
 @interface ClassListViewController : UITableViewController <CLLocationManagerDelegate,UIActionSheetDelegate>
 {
     NSArray *classCheckIns;
