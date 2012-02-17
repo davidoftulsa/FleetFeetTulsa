@@ -213,14 +213,17 @@
     
     PFObject *customerClass = [customerCalendarClasses objectAtIndex:[[myTableView indexPathForSelectedRow] row]];
     
+    
+    
     for (PFObject *pfo in customerClassCheckIns)
     {
         
-        if ([pfo objectForKey:@"ClassOfferingId"] == [customerClass objectForKey:@"ClassOfferingId"]){
+        if ([[pfo objectForKey:@"ClassOfferingId"] isEqualToString:[customerClass objectForKey:@"ClassOfferingId"]] ){
             existingCheckIn = YES;
         }
         
     }
+    
     
     
     if([CLLocationManager locationServicesEnabled])
@@ -256,14 +259,7 @@
             [newCheckIn save];
             [self.customerClassCheckIns addObject:newCheckIn];
             
-            /*
-            UIAlertView *alert = [[UIAlertView alloc]
-                                  initWithTitle: @"Success"
-                                  message: @"You are checked in to the class."
-                                  delegate: nil
-                                  cancelButtonTitle:@"Check-In to another class"
-                                  otherButtonTitles:@"Logout",nil];
-            */
+           
             UIActionSheet *successActionSheet = [[UIActionSheet alloc]
                                                  initWithTitle:@"Check-In Successful" 
                                                  delegate:self 
@@ -367,6 +363,7 @@
                 [classCalendarQuery whereKey:@"ClassId" equalTo:[pfo objectForKey:@"ClassId"]];
                 [classCalendarQuery whereKey:@"ClassTermId" equalTo:[pfo objectForKey:@"TermId"]];
                 [classCalendarQuery whereKey:@"ClassDate" equalTo:dateString];
+                [classCalendarQuery orderByAscending:@"ClassTime"];
                 NSArray *customerClasses = [classCalendarQuery findObjects:nil];
                 
                 for(PFObject *pfo in customerClasses){
@@ -374,18 +371,14 @@
                 }
             }
             
-            //NSLog(@"customer id: %@", self.customerId);
-            //NSLog(@"class date: %@", dateString);
+           
 
             PFQuery *customerClassCheckInsQuery = [PFQuery queryWithClassName:@"CheckIn"];
             [customerClassCheckInsQuery whereKey:@"CustomerId" equalTo:self.customerId];
             [customerClassCheckInsQuery whereKey:@"CheckInDate" equalTo:dateString];
-            [customerClassCheckInsQuery orderByAscending:@"ClassTime"];
+            
            
             [self setCustomerClassCheckIns: [NSMutableArray arrayWithArray:[customerClassCheckInsQuery findObjects:nil]]];
-            
-            //NSLog(@"customerCheckIns: %d",self.customerClassCheckIns.count);
-            
             
             
             [self.tableView reloadData];
