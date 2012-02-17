@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F36EBE314D085B200EC15F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EBE214D085B200EC15F5 /* UIKit.framework */; };
+		9F36EBE514D085B200EC15F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EBE414D085B200EC15F5 /* Foundation.framework */; };
+		9F36EBE714D085B200EC15F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EBE614D085B200EC15F5 /* CoreGraphics.framework */; };
+		9F36EBED14D085B200EC15F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F36EBEB14D085B200EC15F5 /* InfoPlist.strings */; };
+		9F36EBEF14D085B200EC15F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F36EBEE14D085B200EC15F5 /* main.m */; };
+		9F36EBF314D085B200EC15F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F36EBF214D085B200EC15F5 /* AppDelegate.m */; };
+		9F36EC0014D08A2200EC15F5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EBFF14D08A2200EC15F5 /* Parse.framework */; };
+		9F36EC0214D08B1E00EC15F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0114D08B1E00EC15F5 /* AudioToolbox.framework */; };
+		9F36EC0414D08B2700EC15F5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0314D08B2700EC15F5 /* CFNetwork.framework */; };
+		9F36EC0614D08E3000EC15F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0514D08E3000EC15F5 /* SystemConfiguration.framework */; };
+		9F36EC0814D08E3D00EC15F5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0714D08E3D00EC15F5 /* MobileCoreServices.framework */; };
+		9F36EC0A14D08E4800EC15F5 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0914D08E4800EC15F5 /* libz.1.1.3.dylib */; };
+		9F36EC0C14D08E9900EC15F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0B14D08E9900EC15F5 /* Security.framework */; };
+		9F36EC0E14D08EA600EC15F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F36EC0D14D08EA600EC15F5 /* QuartzCore.framework */; };
+		9F5582FD14DC348F008FC47E /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5582FC14DC348F008FC47E /* checkmark.png */; };
+		9F5582FF14DE2D33008FC47E /* checkMarkNoBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5582FE14DE2D33008FC47E /* checkMarkNoBackGround.png */; };
+		9F61979314D3618100913317 /* ClassListCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61979214D3618100913317 /* ClassListCustomCell.m */; };
+		9F61979514D3623A00913317 /* ClassListCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F61979414D3623A00913317 /* ClassListCustomCell.xib */; };
+		9F61979714D3979700913317 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F61979614D3979700913317 /* CoreLocation.framework */; };
+		9F6197A614D42A9700913317 /* spinnerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6197A514D42A9700913317 /* spinnerBackground.png */; };
+		9FF928C114D23C48007F805F /* ClassListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF928BF14D23C48007F805F /* ClassListViewController.m */; };
+		9FF928C214D23C48007F805F /* ClassListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF928C014D23C48007F805F /* ClassListViewController.xib */; };
+		E7BAC89214E34B6D00A0D902 /* EmailEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */; };
+		E7BAC89314E34B6D00A0D902 /* EmailEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BAC88B14E34B6D00A0D902 /* EmailEntryViewController.xib */; };
+		E7BAC89414E34B6D00A0D902 /* StudentListCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAC88D14E34B6D00A0D902 /* StudentListCustomCell.m */; };
+		E7BAC89514E34B6D00A0D902 /* StudentListCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BAC88E14E34B6D00A0D902 /* StudentListCustomCell.xib */; };
+		E7BAC89614E34B6D00A0D902 /* StudentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAC89014E34B6D00A0D902 /* StudentListViewController.m */; };
+		E7BAC89714E34B6D00A0D902 /* StudentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BAC89114E34B6D00A0D902 /* StudentListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F36EBDE14D085B200EC15F5 /* FleetFeetTulsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleetFeetTulsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F36EBE214D085B200EC15F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F36EBE414D085B200EC15F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F36EBE614D085B200EC15F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F36EBEA14D085B200EC15F5 /* FleetFeetTulsa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FleetFeetTulsa-Info.plist"; sourceTree = "<group>"; };
+		9F36EBEC14D085B200EC15F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F36EBEE14D085B200EC15F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F36EBF014D085B200EC15F5 /* FleetFeetTulsa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FleetFeetTulsa-Prefix.pch"; sourceTree = "<group>"; };
+		9F36EBF114D085B200EC15F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F36EBF214D085B200EC15F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F36EBFF14D08A2200EC15F5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9F36EC0114D08B1E00EC15F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9F36EC0314D08B2700EC15F5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9F36EC0514D08E3000EC15F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9F36EC0714D08E3D00EC15F5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9F36EC0914D08E4800EC15F5 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		9F36EC0B14D08E9900EC15F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9F36EC0D14D08EA600EC15F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9F5582FC14DC348F008FC47E /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		9F5582FE14DE2D33008FC47E /* checkMarkNoBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkMarkNoBackGround.png; sourceTree = "<group>"; };
+		9F61979114D3618100913317 /* ClassListCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassListCustomCell.h; sourceTree = "<group>"; };
+		9F61979214D3618100913317 /* ClassListCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassListCustomCell.m; sourceTree = "<group>"; };
+		9F61979414D3623A00913317 /* ClassListCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassListCustomCell.xib; sourceTree = "<group>"; };
+		9F61979614D3979700913317 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F6197A514D42A9700913317 /* spinnerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinnerBackground.png; sourceTree = "<group>"; };
+		9FF928BE14D23C48007F805F /* ClassListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassListViewController.h; path = ../ClassListViewController.h; sourceTree = "<group>"; };
+		9FF928BF14D23C48007F805F /* ClassListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassListViewController.m; path = ../ClassListViewController.m; sourceTree = "<group>"; };
+		9FF928C014D23C48007F805F /* ClassListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClassListViewController.xib; path = ../ClassListViewController.xib; sourceTree = "<group>"; };
+		E7BAC88914E34B6D00A0D902 /* EmailEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailEntryViewController.h; sourceTree = "<group>"; };
+		E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailEntryViewController.m; sourceTree = "<group>"; };
+		E7BAC88B14E34B6D00A0D902 /* EmailEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailEntryViewController.xib; sourceTree = "<group>"; };
+		E7BAC88C14E34B6D00A0D902 /* StudentListCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentListCustomCell.h; sourceTree = "<group>"; };
+		E7BAC88D14E34B6D00A0D902 /* StudentListCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentListCustomCell.m; sourceTree = "<group>"; };
+		E7BAC88E14E34B6D00A0D902 /* StudentListCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentListCustomCell.xib; sourceTree = "<group>"; };
+		E7BAC88F14E34B6D00A0D902 /* StudentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentListViewController.h; sourceTree = "<group>"; };
+		E7BAC89014E34B6D00A0D902 /* StudentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentListViewController.m; sourceTree = "<group>"; };
+		E7BAC89114E34B6D00A0D902 /* StudentListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F36EBDB14D085B200EC15F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F61979714D3979700913317 /* CoreLocation.framework in Frameworks */,
+				9F36EC0E14D08EA600EC15F5 /* QuartzCore.framework in Frameworks */,
+				9F36EC0C14D08E9900EC15F5 /* Security.framework in Frameworks */,
+				9F36EC0A14D08E4800EC15F5 /* libz.1.1.3.dylib in Frameworks */,
+				9F36EC0814D08E3D00EC15F5 /* MobileCoreServices.framework in Frameworks */,
+				9F36EC0614D08E3000EC15F5 /* SystemConfiguration.framework in Frameworks */,
+				9F36EC0414D08B2700EC15F5 /* CFNetwork.framework in Frameworks */,
+				9F36EC0214D08B1E00EC15F5 /* AudioToolbox.framework in Frameworks */,
+				9F36EBE314D085B200EC15F5 /* UIKit.framework in Frameworks */,
+				9F36EBE514D085B200EC15F5 /* Foundation.framework in Frameworks */,
+				9F36EBE714D085B200EC15F5 /* CoreGraphics.framework in Frameworks */,
+				9F36EC0014D08A2200EC15F5 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F36EBD314D085B200EC15F5 = {
+			isa = PBXGroup;
+			children = (
+				9F6197A414D42A7F00913317 /* Resources */,
+				9F36EBE814D085B200EC15F5 /* FleetFeetTulsa */,
+				9F36EBDF14D085B200EC15F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F36EBDF14D085B200EC15F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F36EBDE14D085B200EC15F5 /* FleetFeetTulsa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F36EBE114D085B200EC15F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F61979614D3979700913317 /* CoreLocation.framework */,
+				9F36EC0D14D08EA600EC15F5 /* QuartzCore.framework */,
+				9F36EC0B14D08E9900EC15F5 /* Security.framework */,
+				9F36EC0914D08E4800EC15F5 /* libz.1.1.3.dylib */,
+				9F36EC0714D08E3D00EC15F5 /* MobileCoreServices.framework */,
+				9F36EC0514D08E3000EC15F5 /* SystemConfiguration.framework */,
+				9F36EC0314D08B2700EC15F5 /* CFNetwork.framework */,
+				9F36EC0114D08B1E00EC15F5 /* AudioToolbox.framework */,
+				9F36EBFF14D08A2200EC15F5 /* Parse.framework */,
+				9F36EBE214D085B200EC15F5 /* UIKit.framework */,
+				9F36EBE414D085B200EC15F5 /* Foundation.framework */,
+				9F36EBE614D085B200EC15F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9F36EBE814D085B200EC15F5 /* FleetFeetTulsa */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAC88914E34B6D00A0D902 /* EmailEntryViewController.h */,
+				E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */,
+				E7BAC88B14E34B6D00A0D902 /* EmailEntryViewController.xib */,
+				E7BAC88C14E34B6D00A0D902 /* StudentListCustomCell.h */,
+				E7BAC88D14E34B6D00A0D902 /* StudentListCustomCell.m */,
+				E7BAC88E14E34B6D00A0D902 /* StudentListCustomCell.xib */,
+				E7BAC88F14E34B6D00A0D902 /* StudentListViewController.h */,
+				E7BAC89014E34B6D00A0D902 /* StudentListViewController.m */,
+				E7BAC89114E34B6D00A0D902 /* StudentListViewController.xib */,
+				9FF928BE14D23C48007F805F /* ClassListViewController.h */,
+				9FF928BF14D23C48007F805F /* ClassListViewController.m */,
+				9FF928C014D23C48007F805F /* ClassListViewController.xib */,
+				9F61979114D3618100913317 /* ClassListCustomCell.h */,
+				9F61979214D3618100913317 /* ClassListCustomCell.m */,
+				9F61979414D3623A00913317 /* ClassListCustomCell.xib */,
+				9F36EBF114D085B200EC15F5 /* AppDelegate.h */,
+				9F36EBF214D085B200EC15F5 /* AppDelegate.m */,
+				9F36EBE914D085B200EC15F5 /* Supporting Files */,
+				9F36EBE114D085B200EC15F5 /* Frameworks */,
+			);
+			name = FleetFeetTulsa;
+			path = FleetFeetTulsaPage3;
+			sourceTree = "<group>";
+		};
+		9F36EBE914D085B200EC15F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F36EBEA14D085B200EC15F5 /* FleetFeetTulsa-Info.plist */,
+				9F36EBEB14D085B200EC15F5 /* InfoPlist.strings */,
+				9F36EBEE14D085B200EC15F5 /* main.m */,
+				9F36EBF014D085B200EC15F5 /* FleetFeetTulsa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F6197A414D42A7F00913317 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F5582FE14DE2D33008FC47E /* checkMarkNoBackGround.png */,
+				9F5582FC14DC348F008FC47E /* checkmark.png */,
+				9F6197A514D42A9700913317 /* spinnerBackground.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F36EBDD14D085B200EC15F5 /* FleetFeetTulsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F36EBFC14D085B200EC15F5 /* Build configuration list for PBXNativeTarget "FleetFeetTulsa" */;
+			buildPhases = (
+				9F36EBDA14D085B200EC15F5 /* Sources */,
+				9F36EBDB14D085B200EC15F5 /* Frameworks */,
+				9F36EBDC14D085B200EC15F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FleetFeetTulsa;
+			productName = FleetFeetTulsaPage3;
+			productReference = 9F36EBDE14D085B200EC15F5 /* FleetFeetTulsa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F36EBD514D085B200EC15F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9F36EBD814D085B200EC15F5 /* Build configuration list for PBXProject "FleetFeetTulsa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F36EBD314D085B200EC15F5;
+			productRefGroup = 9F36EBDF14D085B200EC15F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F36EBDD14D085B200EC15F5 /* FleetFeetTulsa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F36EBDC14D085B200EC15F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F36EBED14D085B200EC15F5 /* InfoPlist.strings in Resources */,
+				9FF928C214D23C48007F805F /* ClassListViewController.xib in Resources */,
+				9F61979514D3623A00913317 /* ClassListCustomCell.xib in Resources */,
+				9F6197A614D42A9700913317 /* spinnerBackground.png in Resources */,
+				9F5582FD14DC348F008FC47E /* checkmark.png in Resources */,
+				9F5582FF14DE2D33008FC47E /* checkMarkNoBackGround.png in Resources */,
+				E7BAC89314E34B6D00A0D902 /* EmailEntryViewController.xib in Resources */,
+				E7BAC89514E34B6D00A0D902 /* StudentListCustomCell.xib in Resources */,
+				E7BAC89714E34B6D00A0D902 /* StudentListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F36EBDA14D085B200EC15F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F36EBEF14D085B200EC15F5 /* main.m in Sources */,
+				9F36EBF314D085B200EC15F5 /* AppDelegate.m in Sources */,
+				9FF928C114D23C48007F805F /* ClassListViewController.m in Sources */,
+				9F61979314D3618100913317 /* ClassListCustomCell.m in Sources */,
+				E7BAC89214E34B6D00A0D902 /* EmailEntryViewController.m in Sources */,
+				E7BAC89414E34B6D00A0D902 /* StudentListCustomCell.m in Sources */,
+				E7BAC89614E34B6D00A0D902 /* StudentListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F36EBEB14D085B200EC15F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F36EBEC14D085B200EC15F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F36EBFA14D085B200EC15F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos5.0;
+			};
+			name = Debug;
+		};
+		9F36EBFB14D085B200EC15F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F36EBFD14D085B200EC15F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch";
+				INFOPLIST_FILE = "FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_NAME = FleetFeetTulsa;
+				SDKROOT = iphoneos5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F36EBFE14D085B200EC15F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FleetFeetTulsaPage3/FleetFeetTulsa-Prefix.pch";
+				INFOPLIST_FILE = "FleetFeetTulsaPage3/FleetFeetTulsa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_NAME = FleetFeetTulsa;
+				SDKROOT = iphoneos5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F36EBD814D085B200EC15F5 /* Build configuration list for PBXProject "FleetFeetTulsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F36EBFA14D085B200EC15F5 /* Debug */,
+				9F36EBFB14D085B200EC15F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F36EBFC14D085B200EC15F5 /* Build configuration list for PBXNativeTarget "FleetFeetTulsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F36EBFD14D085B200EC15F5 /* Debug */,
+				9F36EBFE14D085B200EC15F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F36EBD514D085B200EC15F5 /* Project object */;
+}
