@@ -29,6 +29,9 @@
 		9F6197A614D42A9700913317 /* spinnerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6197A514D42A9700913317 /* spinnerBackground.png */; };
 		9FF928C114D23C48007F805F /* ClassListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF928BF14D23C48007F805F /* ClassListViewController.m */; };
 		9FF928C214D23C48007F805F /* ClassListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF928C014D23C48007F805F /* ClassListViewController.xib */; };
+		E13F9DF714EFE25600F700DD /* ff_background_sized.png in Resources */ = {isa = PBXBuildFile; fileRef = E13F9DF514EFE25600F700DD /* ff_background_sized.png */; };
+		E13F9DF814EFE25600F700DD /* ff_background_sized@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E13F9DF614EFE25600F700DD /* ff_background_sized@2x.png */; };
+		E13F9DFB14F000DA00F700DD /* FFlogo clear backgrd.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E13F9DFA14F000DA00F700DD /* FFlogo clear backgrd.PNG */; };
 		E7BAC89214E34B6D00A0D902 /* EmailEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */; };
 		E7BAC89314E34B6D00A0D902 /* EmailEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BAC88B14E34B6D00A0D902 /* EmailEntryViewController.xib */; };
 		E7BAC89414E34B6D00A0D902 /* StudentListCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAC88D14E34B6D00A0D902 /* StudentListCustomCell.m */; };
@@ -66,6 +69,9 @@
 		9FF928BE14D23C48007F805F /* ClassListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassListViewController.h; path = ../ClassListViewController.h; sourceTree = "<group>"; };
 		9FF928BF14D23C48007F805F /* ClassListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassListViewController.m; path = ../ClassListViewController.m; sourceTree = "<group>"; };
 		9FF928C014D23C48007F805F /* ClassListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClassListViewController.xib; path = ../ClassListViewController.xib; sourceTree = "<group>"; };
+		E13F9DF514EFE25600F700DD /* ff_background_sized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_background_sized.png; sourceTree = "<group>"; };
+		E13F9DF614EFE25600F700DD /* ff_background_sized@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_background_sized@2x.png"; sourceTree = "<group>"; };
+		E13F9DFA14F000DA00F700DD /* FFlogo clear backgrd.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FFlogo clear backgrd.PNG"; sourceTree = "<group>"; };
 		E7BAC88914E34B6D00A0D902 /* EmailEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailEntryViewController.h; sourceTree = "<group>"; };
 		E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailEntryViewController.m; sourceTree = "<group>"; };
 		E7BAC88B14E34B6D00A0D902 /* EmailEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailEntryViewController.xib; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 		9F6197A414D42A7F00913317 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E13F9DFA14F000DA00F700DD /* FFlogo clear backgrd.PNG */,
+				E13F9DF514EFE25600F700DD /* ff_background_sized.png */,
+				E13F9DF614EFE25600F700DD /* ff_background_sized@2x.png */,
 				9F5582FE14DE2D33008FC47E /* checkMarkNoBackGround.png */,
 				9F5582FC14DC348F008FC47E /* checkmark.png */,
 				9F6197A514D42A9700913317 /* spinnerBackground.png */,
@@ -244,6 +253,9 @@
 				E7BAC89314E34B6D00A0D902 /* EmailEntryViewController.xib in Resources */,
 				E7BAC89514E34B6D00A0D902 /* StudentListCustomCell.xib in Resources */,
 				E7BAC89714E34B6D00A0D902 /* StudentListViewController.xib in Resources */,
+				E13F9DF714EFE25600F700DD /* ff_background_sized.png in Resources */,
+				E13F9DF814EFE25600F700DD /* ff_background_sized@2x.png in Resources */,
+				E13F9DFB14F000DA00F700DD /* FFlogo clear backgrd.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

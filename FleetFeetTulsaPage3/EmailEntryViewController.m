@@ -20,6 +20,23 @@
     if (self) {
         // Custom initialization
         [[self navigationItem] setTitle:@"Class Check-in"];
+        
+        UIScreen *mainScreen = [UIScreen mainScreen];
+        CGFloat scale = [mainScreen scale]; //gets scale (2.0 for retina display, 1.0 all others)
+        CGRect bounds = [mainScreen bounds]; 
+        CGRect pixels = bounds; //sets pixels to whatever the mainScreen bounds are
+        if (scale > 0) {
+            pixels.origin.x *= scale; //These 4 lines multiply all by 1.0 (or 2.0 if retina)
+            pixels.origin.y *= scale;
+            pixels.size.width *= scale;
+            pixels.size.height *= scale;
+        }
+        UIColor *background = [[UIColor alloc] 
+            initWithPatternImage: [UIImage imageNamed:@"ff_background_sized.png"]];
+                   
+        self.view.backgroundColor = background;
+        [background release];
+
     }
     return self;
 }
@@ -65,8 +82,10 @@
     
     [self.navigationController pushViewController:secondPage animated:YES];
     
+    
     [secondPage release];
- 
+    [self.emailTextfield setText:@""];//***** This erases the email address. 
+                                        //May want this on page 2 or 3 ??????
    
    
 }
@@ -79,11 +98,12 @@
 {
     [super viewDidUnload];
     
-    //[emailTextfield release];
+    //[emailTextfield release]; ***** Should this go here instead of dealloc method?
     
     
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
