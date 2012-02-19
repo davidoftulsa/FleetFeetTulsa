@@ -357,19 +357,34 @@
             [query whereKey:@"EndDate" greaterThanOrEqualTo:dateString];
             NSArray *customerClassOfferings = [query findObjects:nil];
             
+            
+            
             for(PFObject *pfo in customerClassOfferings){
                 
                 PFQuery *classCalendarQuery = [PFQuery queryWithClassName:@"ClassCalendar"];
                 [classCalendarQuery whereKey:@"ClassId" equalTo:[pfo objectForKey:@"ClassId"]];
                 [classCalendarQuery whereKey:@"ClassTermId" equalTo:[pfo objectForKey:@"TermId"]];
                 [classCalendarQuery whereKey:@"ClassDate" equalTo:dateString];
-                [classCalendarQuery orderByAscending:@"ClassTime"];
+                [classCalendarQuery orderByAscending:@"ClassTitle"];
                 NSArray *customerClasses = [classCalendarQuery findObjects:nil];
                 
                 for(PFObject *pfo in customerClasses){
                     [self.customerCalendarClasses addObject:pfo];
+                    
                 }
             }
+            
+            
+            NSArray *sortedArray;
+            sortedArray = [self.customerCalendarClasses sortedArrayUsingComparator:^(id a, id b) {
+                NSDate *first = [(PFObject*)a objectForKey:@"ClassTime"];
+                NSDate *second = [(PFObject*)b objectForKey:@"ClassTime"];
+                return [first compare:second];
+            }];
+            
+             [self setCustomerCalendarClasses:[NSMutableArray arrayWithArray:sortedArray]];
+            
+            
             
            
 
