@@ -10,13 +10,16 @@
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface ClassListViewController : UITableViewController <CLLocationManagerDelegate,UIActionSheetDelegate>
+@interface ClassListViewController : UIViewController <CLLocationManagerDelegate,UIActionSheetDelegate, UITableViewDelegate, UITableViewDataSource>
 {
     NSArray *classCheckIns;
     NSMutableArray *customerClassCheckIns;
     CLLocationManager *locationManager;
     CLLocation *myLocation;
     IBOutlet UITableView *myTableView;
+    IBOutlet UIBarButtonItem *checkInButton;
+    IBOutlet UIBarButtonItem *editButton;
+    UIToolbar *buttonBar;
 
     UIActivityIndicatorView *spinnerView;
     UIImageView *rView;
@@ -36,6 +39,8 @@
 @property (nonatomic, retain) NSMutableArray *customerRegisteredClasses;
 @property (nonatomic, retain) NSArray *customerClassesToday;
 @property (nonatomic, retain) NSMutableArray *customerCalendarClasses;
+@property (nonatomic, retain) UIToolbar *buttonBar;
+
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomerId:(NSString *) cid;
@@ -44,6 +49,7 @@
 -(void) hideLoadingIndicator;
 -(void) checkInToClassBackground;
 -(void) fetchCustomerClasses;
+-(void) toggleTableViewEditMode;
 
 
 

@@ -21,6 +21,7 @@
 @synthesize customerClassesToday;
 @synthesize customerRegisteredClasses;
 @synthesize customerClassCheckIns;
+@synthesize buttonBar;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomerId:(NSString *) cid  {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,7 +37,7 @@
         self.customerCalendarClasses = [[NSMutableArray alloc] init];
         self.customerId = [NSString stringWithString:cid];
         [self setCustomerId:cid];
-        [self.tableView setRowHeight:76];
+        
         
       
     } 
@@ -58,13 +59,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self.myTableView setRowHeight:76];
 
     self.title = @"My Classes";
     
+    
+    /*
     UIBarButtonItem *checkInButton = [[UIBarButtonItem alloc] initWithTitle:@"Check In" style:UIBarButtonItemStylePlain target:self action:@selector(checkInToClass:)];
     self.navigationItem.rightBarButtonItem = checkInButton;
     self.navigationItem.rightBarButtonItem.enabled = NO;
     [checkInButton release];
+     */
+    [checkInButton setEnabled:NO];
+    [checkInButton setAction:@selector(checkInToClass:)];
+    [checkInButton setTarget:self];
+    
+    [editButton setAction:@selector(toggleTableViewEditMode)];
 
     [self showLoadingIndicator];
     
@@ -166,11 +177,39 @@
 
 }
 
-
-
 - (void)tableView: (UITableView *)tableView didSelectRowAtIndexPath: (NSIndexPath *)indexPath 
 {
-    self.navigationItem.rightBarButtonItem.enabled = YES;
+    [checkInButton setEnabled:YES];
+
+    //self.navigationItem.rightBarButtonItem.enabled = YES;
+}
+
+-(void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (editingStyle ==UITableViewCellEditingStyleDelete){
+        
+        NSLog(@"Remove at %d:", indexPath.row);
+        PFObject *classToRemoveCheckIn = [self.customerCalendarClasses objectAtIndex:indexPath.row];
+        NSString *classOfferingIdToRemove = [NSString stringWithString:[classToRemoveCheckIn objectForKey:@"ClassOfferingId"]];
+       // PFObject *checkInToRemove;
+        
+        for (PFObject *pfo in self.customerClassCheckIns){
+            if ([[pfo objectForKey:@"ClassOfferingId"] isEqualToString:classOfferingIdToRemove]){
+                [pfo deleteInBackground];
+                [self.customerClassCheckIns removeObject:pfo]; 
+                
+            }
+        }
+        
+        [self.myTableView reloadData];
+        
+    }
+        
+}
+
+
+- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return @"Remove Check In";
 }
 
 
@@ -194,7 +233,9 @@
     //insert checkin record
     //notify user of success or failure
     
-    self.navigationItem.rightBarButtonItem.enabled = NO;
+    [checkInButton setEnabled:NO];
+    
+    //self.navigationItem.rightBarButtonItem.enabled = NO;
     [self showLoadingIndicator];
     
     
@@ -268,8 +309,8 @@
                                                  otherButtonTitles:@"Check-In to another class", nil];
             [successActionSheet setCancelButtonIndex:0];
             
-            
-            [self.tableView reloadData];
+            [self.myTableView reloadData];
+            //[self.tableView reloadData];
             
             [df1 release];
             [successActionSheet showInView:self.view];
@@ -322,8 +363,9 @@
     
     
     [self hideLoadingIndicator];
-    self.navigationItem.rightBarButtonItem.enabled = YES;
-    
+    //self.navigationItem.rightBarButtonItem.enabled = YES;
+    [checkInButton setEnabled:YES];
+
     [pool drain];
 
 }
@@ -395,8 +437,9 @@
            
             [self setCustomerClassCheckIns: [NSMutableArray arrayWithArray:[customerClassCheckInsQuery findObjects:nil]]];
             
-            
-            [self.tableView reloadData];
+            [self.myTableView reloadData];
+            //[self.tableView reloadData];
+            //[self.tableView reloadData];
             
             [self hideLoadingIndicator];
             
@@ -419,6 +462,19 @@
         [myAppDelegate.navController popToRootViewControllerAnimated:YES];
         
     } 
+    
+}
+
+-(void) toggleTableViewEditMode {
+    
+    if([editButton.title isEqualToString:@"Edit"]){
+    [self.myTableView setEditing:YES animated:YES];
+    [editButton setTitle:@"Done"];
+    } else
+    {
+        [self.myTableView setEditing:NO animated:YES];
+        [editButton setTitle:@"Edit"];
+    }
     
 }
 

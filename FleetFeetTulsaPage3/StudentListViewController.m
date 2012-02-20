@@ -151,14 +151,7 @@
             //customers = objects;  
             
             
-            for (PFObject *pfo in customers)
-            {
-                NSLog(@"Email Address: %@",[pfo objectForKey:@"EmailAddress"]);
-                NSLog(@"First Name: %@",[pfo objectForKey:@"FirstName"]);
-                NSLog(@"Last Name: %@",[pfo objectForKey:@"LastName"]);
-                NSLog(@"id: %@",pfo.objectId);
-                
-            }
+            
             
             [self.tableView reloadData];
             
