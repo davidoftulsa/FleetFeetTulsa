@@ -37,9 +37,6 @@
         self.customerCalendarClasses = [[NSMutableArray alloc] init];
         self.customerId = [NSString stringWithString:cid];
         [self setCustomerId:cid];
-        
-        
-      
     } 
     
     return self;
@@ -64,13 +61,6 @@
 
     self.title = @"My Classes";
     
-    
-    /*
-    UIBarButtonItem *checkInButton = [[UIBarButtonItem alloc] initWithTitle:@"Check In" style:UIBarButtonItemStylePlain target:self action:@selector(checkInToClass:)];
-    self.navigationItem.rightBarButtonItem = checkInButton;
-    self.navigationItem.rightBarButtonItem.enabled = NO;
-    [checkInButton release];
-     */
     [checkInButton setEnabled:NO];
     [checkInButton setAction:@selector(checkInToClass:)];
     [checkInButton setTarget:self];
@@ -188,11 +178,21 @@
     
     if (editingStyle ==UITableViewCellEditingStyleDelete){
         
-        NSLog(@"Remove at %d:", indexPath.row);
+        //NSLog(@"Remove at %d:", indexPath.row);
         PFObject *classToRemoveCheckIn = [self.customerCalendarClasses objectAtIndex:indexPath.row];
         NSString *classOfferingIdToRemove = [NSString stringWithString:[classToRemoveCheckIn objectForKey:@"ClassOfferingId"]];
        // PFObject *checkInToRemove;
         
+        for (int i = 0; i < [self.customerClassCheckIns count]; i++)
+        {
+            PFObject *pfo = [self.customerClassCheckIns objectAtIndex:i];
+            if ([[pfo objectForKey:@"ClassOfferingId"] isEqualToString:classOfferingIdToRemove]){
+                [pfo deleteInBackground];
+                [self.customerClassCheckIns removeObject:pfo]; 
+            }
+        }
+        
+        /*
         for (PFObject *pfo in self.customerClassCheckIns){
             if ([[pfo objectForKey:@"ClassOfferingId"] isEqualToString:classOfferingIdToRemove]){
                 [pfo deleteInBackground];
@@ -200,6 +200,7 @@
                 
             }
         }
+         */
         
         [self.myTableView reloadData];
         
@@ -235,7 +236,6 @@
     
     [checkInButton setEnabled:NO];
     
-    //self.navigationItem.rightBarButtonItem.enabled = NO;
     [self showLoadingIndicator];
     
     
