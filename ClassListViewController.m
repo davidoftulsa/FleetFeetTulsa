@@ -109,17 +109,12 @@
     
 }
 
-
-
 // Customize the number of rows in the table view.
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return customerCalendarClasses.count;
-    
+    return customerCalendarClasses.count;    
 }
-
-
 
 // Customize the appearance of table view cells.
 
@@ -154,8 +149,6 @@
              hideCheckmarkImage = NO;
      }
     
-    
-    
     NSLocale *enUSPOSIXLocale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
     NSDateFormatter *df1 = [[NSDateFormatter alloc] init];
     [df1 setLocale:enUSPOSIXLocale];
@@ -188,11 +181,9 @@
 -(void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (editingStyle ==UITableViewCellEditingStyleDelete){
-        
-        //NSLog(@"Remove at %d:", indexPath.row);
+
         PFObject *classToRemoveCheckIn = [self.customerCalendarClasses objectAtIndex:indexPath.row];
         NSString *classOfferingIdToRemove = [NSString stringWithString:[classToRemoveCheckIn objectForKey:@"ClassOfferingId"]];
-       // PFObject *checkInToRemove;
         
         for (int i = 0; i < [self.customerClassCheckIns count]; i++)
         {
@@ -202,16 +193,6 @@
                 [self.customerClassCheckIns removeObject:pfo]; 
             }
         }
-        
-        /*
-        for (PFObject *pfo in self.customerClassCheckIns){
-            if ([[pfo objectForKey:@"ClassOfferingId"] isEqualToString:classOfferingIdToRemove]){
-                [pfo deleteInBackground];
-                [self.customerClassCheckIns removeObject:pfo]; 
-                
-            }
-        }
-         */
         
         [self.myTableView reloadData];
         
@@ -239,11 +220,6 @@
 }
 
 -(void) checkInToClass:(id) sender{
-    
-    //check for existing checkin -- if a check in exists for this user for this class then notify the user  -- do not insert checkin
-    //check to make sure that the user is at one of the fleet feet locations
-    //insert checkin record
-    //notify user of success or failure
     
     [checkInButton setEnabled:NO];
     
@@ -282,16 +258,13 @@
     {
         
         
-        // User's location
+        
         PFGeoPoint *userPoint = [PFGeoPoint geoPointWithLatitude:myLocation.coordinate.latitude longitude:myLocation.coordinate.longitude];
-        // Create a query for places
+        
         PFQuery *query = [PFQuery queryWithClassName:@"Locations"];
-        // Interested in locations near user.
+    
         [query whereKey:@"Coordinates" nearGeoPoint:userPoint withinKilometers:50];
-        // Limit what could be a lot of points.
-        //query.limit = [NSNumber numberWithInt:10];
-        // Final list of objects
-        //NSArray *placesObjects = [query findObjects];
+    
         NSNumber *placesObjects  = [NSNumber numberWithInt:[query countObjects]];
         
         if([placesObjects intValue ]>0)
@@ -372,9 +345,7 @@
         
     }
     
-    
     [self hideLoadingIndicator];
-    //self.navigationItem.rightBarButtonItem.enabled = YES;
     [checkInButton setEnabled:YES];
 
     [pool drain];
@@ -437,10 +408,6 @@
             
              [self setCustomerCalendarClasses:[NSMutableArray arrayWithArray:sortedArray]];
             
-            
-            
-           
-
             PFQuery *customerClassCheckInsQuery = [PFQuery queryWithClassName:@"CheckIn"];
             [customerClassCheckInsQuery whereKey:@"CustomerId" equalTo:self.customerId];
             [customerClassCheckInsQuery whereKey:@"CheckInDate" equalTo:dateString];
@@ -449,8 +416,6 @@
             [self setCustomerClassCheckIns: [NSMutableArray arrayWithArray:[customerClassCheckInsQuery findObjects:nil]]];
             
             [self.myTableView reloadData];
-            //[self.tableView reloadData];
-            //[self.tableView reloadData];
             
             [self hideLoadingIndicator];
             
@@ -469,9 +434,6 @@
     if (buttonIndex == 1) {
         
         [self userLogout];
-        //AppDelegate *myAppDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
-        
-        //[myAppDelegate.navController popToRootViewControllerAnimated:YES];
         
     } 
     

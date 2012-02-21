@@ -12,22 +12,21 @@
 
 @interface ClassListViewController : UIViewController <CLLocationManagerDelegate,UIActionSheetDelegate, UITableViewDelegate, UITableViewDataSource>
 {
-    NSArray *classCheckIns;
-    NSMutableArray *customerClassCheckIns;
-    CLLocationManager *locationManager;
-    CLLocation *myLocation;
+    
     IBOutlet UITableView *myTableView;
     IBOutlet UIBarButtonItem *checkInButton;
     IBOutlet UIBarButtonItem *editButton;
-    UIToolbar *buttonBar;
-
-    UIActivityIndicatorView *spinnerView;
-    UIImageView *rView;
-    
     NSString *customerId;
-    NSMutableArray *customerRegisteredClasses;
+    NSArray *classCheckIns;
     NSArray *customerClassesToday;
     NSMutableArray *customerCalendarClasses;
+    NSMutableArray *customerRegisteredClasses;    
+    NSMutableArray *customerClassCheckIns;
+    CLLocationManager *locationManager;
+    CLLocation *myLocation;
+    UIToolbar *buttonBar;
+    UIActivityIndicatorView *spinnerView;
+    UIImageView *rView;
 }
 
 @property (nonatomic, retain) UITableView* myTableView;
@@ -41,8 +40,6 @@
 @property (nonatomic, retain) NSMutableArray *customerCalendarClasses;
 @property (nonatomic, retain) UIToolbar *buttonBar;
 
-
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomerId:(NSString *) cid;
 -(void) checkInToClass:(id) sender;
 -(void) showLoadingIndicator;
@@ -51,8 +48,5 @@
 -(void) fetchCustomerClasses;
 -(void) toggleTableViewEditMode;
 -(void) userLogout;
-
-
-
 
 @end
