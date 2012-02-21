@@ -50,6 +50,7 @@
 -(void) checkInToClassBackground;
 -(void) fetchCustomerClasses;
 -(void) toggleTableViewEditMode;
+-(void) userLogout;
 
 
 

@@ -57,6 +57,17 @@
 {
     [super viewDidLoad];
     
+    UIBarButtonItem *logoutButton = [[UIBarButtonItem alloc] 
+                                     initWithTitle:@"Logout" 
+                                     style:UIBarButtonItemStylePlain 
+                                     target:self 
+                                     action:@selector(userLogout)];
+	
+	
+	[[self navigationItem] setRightBarButtonItem:logoutButton];
+	[logoutButton release];
+
+    
     [self.myTableView setRowHeight:76];
 
     self.title = @"My Classes";
@@ -302,7 +313,7 @@
             
            
             UIActionSheet *successActionSheet = [[UIActionSheet alloc]
-                                                 initWithTitle:@"Check-In Successful" 
+                                                 initWithTitle:@"Check-In Successful!" 
                                                  delegate:self 
                                                  cancelButtonTitle:@"Logout"
                                                  destructiveButtonTitle:nil 
@@ -321,7 +332,7 @@
             if(existingCheckIn==YES){
                 
                 UIAlertView *alert = [[UIAlertView alloc]
-                                      initWithTitle: @"Error"
+                                      initWithTitle: @""
                                       message: @"You have already checked in to this class."
                                       delegate: nil
                                       cancelButtonTitle:@"OK"
@@ -333,7 +344,7 @@
                 if(userAtValidLocation==NO){
                     
                     UIAlertView *alert = [[UIAlertView alloc]
-                                          initWithTitle: @"Error"
+                                          initWithTitle: @""
                                           message: @"You must be at one of the Fleet Feet locations to check in to a class."
                                           delegate: nil
                                           cancelButtonTitle:@"OK"
@@ -351,7 +362,7 @@
     {
         
         UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle: @"Error"
+                              initWithTitle: @""
                               message: @"You must allow location services to check-in to a class.  You can enable location services in the settings of your mobile device."
                               delegate: nil
                               cancelButtonTitle:@"OK"
@@ -457,9 +468,10 @@
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 1) {
         
-        AppDelegate *myAppDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
+        [self userLogout];
+        //AppDelegate *myAppDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
         
-        [myAppDelegate.navController popToRootViewControllerAnimated:YES];
+        //[myAppDelegate.navController popToRootViewControllerAnimated:YES];
         
     } 
     
@@ -497,6 +509,12 @@
 -(void)hideLoadingIndicator{
 	[spinnerView removeFromSuperview];
 	[rView removeFromSuperview];
+}
+
+-(void) userLogout{
+    AppDelegate *myAppDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    [myAppDelegate.navController popToRootViewControllerAnimated:YES];
 }
 
 
