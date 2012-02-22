@@ -16,12 +16,13 @@
 
 @synthesize myTableView, customers, studentEmail, studentId;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomerEmail:(NSString *) cemail;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomers:(NSArray *) clist;
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         //   [self.tableView setRowHeight:76];
-        self.studentEmail = [NSString stringWithString:cemail];
+        //self.studentEmail = [NSString stringWithString:cemail];
+        [self setCustomers:clist];
         
     }
     return self;
@@ -46,12 +47,12 @@
     self.navigationItem.rightBarButtonItem.enabled = NO;
     [LoadClassesButton release];
     
-    [self showLoadingIndicator];
+    //[self showLoadingIndicator];
     
-    [self fetchCustomers];
+    //[self fetchCustomers];
     self.title = @"Students";
     
-    [self hideLoadingIndicator];
+    //[self hideLoadingIndicator];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -138,6 +139,7 @@
     return cell;
 }
 
+/*
 - (void)fetchCustomers
 {
     
@@ -167,7 +169,7 @@
     //  });
     //});
 }
-
+*/
 /*
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -227,12 +229,13 @@
     // Pass control to page 3
     
     ClassListViewController * classListViewController = 
-    [[[ClassListViewController alloc]  
+    [[ClassListViewController alloc]  
       initWithNibName:@"ClassListViewController" 
-      bundle:nil andCustomerId:customerId]
-     autorelease];
+      bundle:nil andCustomerId:customerId];
     
     [self.navigationController pushViewController:classListViewController animated:YES];
+    
+    [classListViewController release];
     
 }
 

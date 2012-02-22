@@ -25,9 +25,9 @@
 @property (nonatomic, retain) NSString * studentId;
 
 
--(void) fetchCustomers;
+//-(void) fetchCustomers;
 -(void) showLoadingIndicator;
 -(void) hideLoadingIndicator;
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomerEmail:(NSString *) cemail;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomers:(NSArray *) clist;
 
 @end

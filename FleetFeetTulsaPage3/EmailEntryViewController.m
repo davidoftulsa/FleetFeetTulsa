@@ -8,11 +8,13 @@
 
 #import "EmailEntryViewController.h"
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation EmailEntryViewController
 
 @synthesize myView;
 @synthesize emailTextfield;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -52,6 +54,10 @@
 #pragma mark - View lifecycle
 
 
+- (void) viewDidDisappear:(BOOL)animated{
+    [self.emailTextfield setText:@""];//***** This erases the email address. 
+}
+
 
 
 
@@ -63,6 +69,7 @@
     [self.emailTextfield setReturnKeyType:UIReturnKeySend];
     [self.emailTextfield addTarget:self action:@selector(emailTextfieldFinished:) forControlEvents:UIControlEventEditingDidEndOnExit];
     
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -73,30 +80,89 @@
 {
     [sender resignFirstResponder];
     
+    [self fetchCustomers];
+    
     //functionality for send button to send text to next page goes here
     
   //  SecondPage *secondPage = [[SecondPage alloc]init];
-    StudentListViewController *secondPage = [[StudentListViewController  alloc]initWithNibName:@"StudentListViewController" bundle:nil  andCustomerEmail:emailTextfield.text];
-    secondPage.title = @"Students";
-  //  secondPage.studentEmail.text = emailTextfield.text;
-    
-    [self.navigationController pushViewController:secondPage animated:YES];
-    
-    
-    [secondPage release];
-    [self.emailTextfield setText:@""];//***** This erases the email address. 
-                                        //May want this on page 2 or 3 ??????
+   
+   
    
    
 }
 
+- (void)fetchCustomers
+{
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"Customer"];
+    [query whereKey:@"EmailAddress" equalTo:self.emailTextfield.text];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            // The find succeeded.
+            
+           
+            if (objects.count == 0){
+                
+                UIAlertView *alert = [[UIAlertView alloc]
+                                      initWithTitle: @""
+                                      message: @"There are no customers with this email address."
+                                      delegate: nil
+                                      cancelButtonTitle:@"OK"
+                                      otherButtonTitles:nil];
+                [alert show];
+                [alert release];
 
+                
+            } else if (objects.count == 1){
+                
+                
+                PFObject *customer = [objects objectAtIndex:0];
+                
+                NSString *customerId = [customer objectId];
+                
+                
+                // Pass control to page 3
+                
+                ClassListViewController * classListViewController = 
+                [[ClassListViewController alloc]  
+                  initWithNibName:@"ClassListViewController" 
+                  bundle:nil andCustomerId:customerId];
+                
+                [self.navigationController pushViewController:classListViewController animated:YES];
 
+                [classListViewController release];
+                
+                
+            }else{
+                
+                StudentListViewController *secondPage = [[StudentListViewController  alloc]initWithNibName:@"StudentListViewController" bundle:nil  andCustomers:objects];
+                secondPage.title = @"Students";
+                //  secondPage.studentEmail.text = emailTextfield.text;
+                
+                [self.navigationController pushViewController:secondPage animated:YES];
+                
+                
+                [secondPage release];
+                
+            }
+            
+      
+            
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+
+}
 
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    
+    //[self.emailTextfield setText:@""];//***** This erases the email address. 
+    //May want this on page 2 or 3 ??????
     
     //[emailTextfield release]; ***** Should this go here instead of dealloc method?
     
