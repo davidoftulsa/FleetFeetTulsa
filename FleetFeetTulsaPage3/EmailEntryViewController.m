@@ -80,6 +80,8 @@
 {
     [sender resignFirstResponder];
     
+    [self showLoadingIndicator];
+    
     [self fetchCustomers];
     
     //functionality for send button to send text to next page goes here
@@ -146,6 +148,8 @@
                 
             }
             
+            [self hideLoadingIndicator];
+            
       
             
         } else {
@@ -155,6 +159,25 @@
     }];
 
 }
+
+-(void)showLoadingIndicator{
+    rView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 110, 164, 164)];
+    [rView setImage:[UIImage imageNamed:@"spinnerBackground.png"]];
+    //[rView setBackgroundColor:[UIColor lightGrayColor]];
+    spinnerView = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(62, 60, 40, 40)];
+    [spinnerView setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    [spinnerView startAnimating];
+    [rView addSubview:spinnerView];
+    [self.view addSubview:rView];
+    [rView release];
+}
+
+
+-(void)hideLoadingIndicator{
+	[spinnerView removeFromSuperview];
+	[rView removeFromSuperview];
+}
+
 
 
 - (void)viewDidUnload

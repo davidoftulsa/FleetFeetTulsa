@@ -294,7 +294,8 @@
             [successActionSheet setCancelButtonIndex:0];
             
             [self.myTableView reloadData];
-            //[self.tableView reloadData];
+
+            [checkInButton setEnabled:NO];
             
             [df1 release];
             [successActionSheet showInView:self.view];
@@ -312,6 +313,7 @@
                                       otherButtonTitles:nil];
                 [alert show];
                 [alert release];
+                [checkInButton setEnabled:YES];
             }else{
                 
                 if(userAtValidLocation==NO){
@@ -324,6 +326,7 @@
                                           otherButtonTitles:nil];
                     [alert show];
                     [alert release];
+                    [checkInButton setEnabled:YES];
                     
                 }
                 
@@ -342,11 +345,12 @@
                               otherButtonTitles:nil];
         [alert show];
         [alert release];
+        [checkInButton setEnabled:YES];
         
     }
     
     [self hideLoadingIndicator];
-    [checkInButton setEnabled:YES];
+    
 
     [pool drain];
 
@@ -418,6 +422,8 @@
             [self.myTableView reloadData];
             
             [self hideLoadingIndicator];
+            
+            
             
             
         } else {

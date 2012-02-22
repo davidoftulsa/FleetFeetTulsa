@@ -16,13 +16,17 @@
 
     IBOutlet UIView *myView;
     IBOutlet UITextField *emailTextfield;
+    UIActivityIndicatorView *spinnerView;
+    UIImageView *rView;
 }
 
 @property (nonatomic, retain) UIView *myView;
 @property (nonatomic, retain) UITextField *emailTextfield;
 
 
-- (IBAction)emailTextfieldFinished:(id)sender;
+-(IBAction)emailTextfieldFinished:(id)sender;
 -(void) fetchCustomers;
+-(void) showLoadingIndicator;
+-(void) hideLoadingIndicator;
 
 @end
