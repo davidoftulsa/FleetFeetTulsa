@@ -35,7 +35,7 @@
             pixels.size.height *= scale;
         }
         UIColor *background = [[UIColor alloc] 
-            initWithPatternImage: [UIImage imageNamed:@"ff_background_sized.png"]];
+            initWithPatternImage: [UIImage imageNamed:@"ff_background.png"]];
                    
         self.view.backgroundColor = background;
         [background release];
@@ -83,10 +83,22 @@
     
     NetworkConnectionTest *nct = [[NetworkConnectionTest alloc ] init];
     
-    if ([nct internetConnectionExists]==YES) {
-        [self showLoadingIndicator];
+    if ([nct internetIsReachable]==YES) {
+        if([nct hostIsReachable]==YES){
+            [self showLoadingIndicator];
+            [self fetchCustomers];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle: @""
+                                  message: @"Unable to connect to host database.  Please try again later."
+                                  delegate: nil
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            [alert show];
+            [alert release];
+        }
         
-        [self fetchCustomers];
+
     } else {
         
         UIAlertView *alert = [[UIAlertView alloc]
@@ -102,16 +114,6 @@
     }
     
     [nct release];
-        
-    
-   
-    
-    //functionality for send button to send text to next page goes here
-    
-  //  SecondPage *secondPage = [[SecondPage alloc]init];
-   
-   
-   
    
 }
 

@@ -12,10 +12,11 @@
 
 @interface NetworkConnectionTest : NSObject
 {
-
+    
 }
 
--(BOOL) internetConnectionExists;
+-(BOOL) internetIsReachable;
+-(BOOL) hostIsReachable;
 
 
 

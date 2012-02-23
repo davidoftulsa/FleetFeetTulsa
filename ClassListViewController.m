@@ -81,10 +81,23 @@
     
     NetworkConnectionTest *nct = [[NetworkConnectionTest alloc ] init];
     
-    if ([nct internetConnectionExists]==YES) {
-        [self showLoadingIndicator];
+    if ([nct internetIsReachable]==YES) {
         
-        [self fetchCustomerClasses];
+        if([nct hostIsReachable]==YES){
+            [self showLoadingIndicator];
+            [self fetchCustomerClasses];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle: @""
+                                  message: @"Unable to connect to host database.  Please try again later."
+                                  delegate: nil
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            [alert show];
+            [alert release];
+        }
+
+
     } else {
         
         UIAlertView *alert = [[UIAlertView alloc]
@@ -245,13 +258,22 @@
     
     NetworkConnectionTest *nct = [[NetworkConnectionTest alloc ] init];
     
-    if ([nct internetConnectionExists]==YES) {
-        [checkInButton setEnabled:NO];
-        
-        [self showLoadingIndicator];
-        
-        
-        [NSThread detachNewThreadSelector:@selector(checkInToClassBackground) toTarget:self withObject:nil];
+    if ([nct internetIsReachable]==YES) {
+
+        if([nct hostIsReachable]==YES){
+            [checkInButton setEnabled:NO];
+            [self showLoadingIndicator];
+            [NSThread detachNewThreadSelector:@selector(checkInToClassBackground) toTarget:self withObject:nil];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle: @""
+                                  message: @"Unable to connect to host database.  Please try again later."
+                                  delegate: nil
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            [alert show];
+            [alert release];
+        }
 
     } else {
         

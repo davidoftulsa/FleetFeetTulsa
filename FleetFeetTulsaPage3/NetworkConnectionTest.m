@@ -15,24 +15,13 @@
     self = [super init];
     if(self){
         
-        // check for internet connection
-        //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(checkNetworkStatus:) name:kReachabilityChangedNotification object:nil];
-        
-        //internetReachable = [[Reachability reachabilityForInternetConnection] retain];
-        //[internetReachable startNotifier];
-        
-        // check if a pathway to a random host exists
-        //hostReachable = [[Reachability reachabilityWithHostName: @"www.apple.com"] retain];
-        //[hostReachable startNotifier];
-
-        
         
     }
     return self;
 }
 
 
--(BOOL) internetConnectionExists;
+-(BOOL) internetIsReachable
 {
     Reachability *internetConnection = [[Reachability reachabilityForInternetConnection] retain];
     NetworkStatus netStatus = [internetConnection currentReachabilityStatus];
@@ -55,6 +44,28 @@
         }
     }}
 
+-(BOOL) hostIsReachable{
+    
+    Reachability *hostConnection = [[Reachability reachabilityWithHostName: @"www.parse.com"] retain];
+    NetworkStatus hostStatus = [hostConnection currentReachabilityStatus];
+    [hostConnection release];
+    
+    switch (hostStatus)
+    {
+        case NotReachable:
+        {
+            return NO;
+        }
+            
+        case ReachableViaWWAN:
+        {
+            return YES;
+        }
+        case ReachableViaWiFi:
+        {
+            return YES;
+        }
+    }}
 
 -(void) dealloc{
     

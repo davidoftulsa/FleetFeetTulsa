@@ -89,7 +89,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">FFlogo clear backgrd.PNG</string>
+							<string key="NSResourceName">ff_logo.png</string>
 						</object>
 					</object>
 				</array>
@@ -229,8 +229,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">FFlogo clear backgrd.PNG</string>
-			<string key="NS.object.0">{390, 173}</string>
+			<string key="NS.key.0">ff_logo.png</string>
+			<string key="NS.object.0">{1766, 783}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>

@@ -31,10 +31,12 @@
 		9FE6426514F547ED002F5D71 /* FleetFeetIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE6426314F547ED002F5D71 /* FleetFeetIcon_Big.png */; };
 		9FE6426814F5D947002F5D71 /* NetworkConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6426714F5D947002F5D71 /* NetworkConnectionTest.m */; };
 		9FE6426B14F5D9F0002F5D71 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6426A14F5D9F0002F5D71 /* Reachability.m */; };
+		9FE6426F14F67FEE002F5D71 /* ff_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE6426C14F67FEE002F5D71 /* ff_logo.png */; };
+		9FE6427014F67FEE002F5D71 /* ff_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE6426D14F67FEE002F5D71 /* ff_background@2x.png */; };
+		9FE6427114F67FEE002F5D71 /* ff_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE6426E14F67FEE002F5D71 /* ff_background.png */; };
+		9FE6427314F68109002F5D71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE6427214F68109002F5D71 /* Default@2x.png */; };
+		9FECA4A214F689FC006DA021 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FECA4A114F689FC006DA021 /* Default.png */; };
 		9FF928C114D23C48007F805F /* ClassListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF928BF14D23C48007F805F /* ClassListViewController.m */; };
-		E13F9DF714EFE25600F700DD /* ff_background_sized.png in Resources */ = {isa = PBXBuildFile; fileRef = E13F9DF514EFE25600F700DD /* ff_background_sized.png */; };
-		E13F9DF814EFE25600F700DD /* ff_background_sized@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E13F9DF614EFE25600F700DD /* ff_background_sized@2x.png */; };
-		E13F9DFB14F000DA00F700DD /* FFlogo clear backgrd.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E13F9DFA14F000DA00F700DD /* FFlogo clear backgrd.PNG */; };
 		E1E5ED4914F18AEB00FB108E /* ClassListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E5ED4814F18AEB00FB108E /* ClassListViewController.xib */; };
 		E7BAC89214E34B6D00A0D902 /* EmailEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */; };
 		E7BAC89314E34B6D00A0D902 /* EmailEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BAC88B14E34B6D00A0D902 /* EmailEntryViewController.xib */; };
@@ -76,11 +78,13 @@
 		9FE6426714F5D947002F5D71 /* NetworkConnectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConnectionTest.m; sourceTree = "<group>"; };
 		9FE6426914F5D9F0002F5D71 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		9FE6426A14F5D9F0002F5D71 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9FE6426C14F67FEE002F5D71 /* ff_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_logo.png; sourceTree = "<group>"; };
+		9FE6426D14F67FEE002F5D71 /* ff_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_background@2x.png"; sourceTree = "<group>"; };
+		9FE6426E14F67FEE002F5D71 /* ff_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_background.png; sourceTree = "<group>"; };
+		9FE6427214F68109002F5D71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9FECA4A114F689FC006DA021 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9FF928BE14D23C48007F805F /* ClassListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassListViewController.h; path = ../ClassListViewController.h; sourceTree = "<group>"; };
 		9FF928BF14D23C48007F805F /* ClassListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassListViewController.m; path = ../ClassListViewController.m; sourceTree = "<group>"; };
-		E13F9DF514EFE25600F700DD /* ff_background_sized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_background_sized.png; sourceTree = "<group>"; };
-		E13F9DF614EFE25600F700DD /* ff_background_sized@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_background_sized@2x.png"; sourceTree = "<group>"; };
-		E13F9DFA14F000DA00F700DD /* FFlogo clear backgrd.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FFlogo clear backgrd.PNG"; sourceTree = "<group>"; };
 		E1E5ED4814F18AEB00FB108E /* ClassListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassListViewController.xib; sourceTree = "<group>"; };
 		E7BAC88914E34B6D00A0D902 /* EmailEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailEntryViewController.h; sourceTree = "<group>"; };
 		E7BAC88A14E34B6D00A0D902 /* EmailEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailEntryViewController.m; sourceTree = "<group>"; };
@@ -198,11 +202,13 @@
 		9F6197A414D42A7F00913317 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9FECA4A114F689FC006DA021 /* Default.png */,
+				9FE6427214F68109002F5D71 /* Default@2x.png */,
+				9FE6426C14F67FEE002F5D71 /* ff_logo.png */,
+				9FE6426D14F67FEE002F5D71 /* ff_background@2x.png */,
+				9FE6426E14F67FEE002F5D71 /* ff_background.png */,
 				9FE6426214F547ED002F5D71 /* FleetFeetIcon_Small.png */,
 				9FE6426314F547ED002F5D71 /* FleetFeetIcon_Big.png */,
-				E13F9DFA14F000DA00F700DD /* FFlogo clear backgrd.PNG */,
-				E13F9DF514EFE25600F700DD /* ff_background_sized.png */,
-				E13F9DF614EFE25600F700DD /* ff_background_sized@2x.png */,
 				9F5582FE14DE2D33008FC47E /* checkMarkNoBackGround.png */,
 				9F5582FC14DC348F008FC47E /* checkmark.png */,
 				9F6197A514D42A9700913317 /* spinnerBackground.png */,
@@ -268,12 +274,14 @@
 				E7BAC89314E34B6D00A0D902 /* EmailEntryViewController.xib in Resources */,
 				E7BAC89514E34B6D00A0D902 /* StudentListCustomCell.xib in Resources */,
 				E7BAC89714E34B6D00A0D902 /* StudentListViewController.xib in Resources */,
-				E13F9DF714EFE25600F700DD /* ff_background_sized.png in Resources */,
-				E13F9DF814EFE25600F700DD /* ff_background_sized@2x.png in Resources */,
-				E13F9DFB14F000DA00F700DD /* FFlogo clear backgrd.PNG in Resources */,
 				E1E5ED4914F18AEB00FB108E /* ClassListViewController.xib in Resources */,
 				9FE6426414F547ED002F5D71 /* FleetFeetIcon_Small.png in Resources */,
 				9FE6426514F547ED002F5D71 /* FleetFeetIcon_Big.png in Resources */,
+				9FE6426F14F67FEE002F5D71 /* ff_logo.png in Resources */,
+				9FE6427014F67FEE002F5D71 /* ff_background@2x.png in Resources */,
+				9FE6427114F67FEE002F5D71 /* ff_background.png in Resources */,
+				9FE6427314F68109002F5D71 /* Default@2x.png in Resources */,
+				9FECA4A214F689FC006DA021 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
