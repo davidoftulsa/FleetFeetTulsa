@@ -5,6 +5,7 @@
 //  Created by David Wright on 1/26/12.
 //
 #import <Parse/Parse.h>
+#import "NetworkConnectionTest.h"
 #import "ClassListViewController.h"
 #import "ClassListCustomCell.h"
 #import "AppDelegate.h"
@@ -77,10 +78,31 @@
     [checkInButton setTarget:self];
     
     [editButton setAction:@selector(toggleTableViewEditMode)];
-
-    [self showLoadingIndicator];
     
-    [self fetchCustomerClasses];
+    NetworkConnectionTest *nct = [[NetworkConnectionTest alloc ] init];
+    
+    if ([nct internetConnectionExists]==YES) {
+        [self showLoadingIndicator];
+        
+        [self fetchCustomerClasses];
+    } else {
+        
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle: @""
+                              message: @"The device is not currently connected to the Internet."
+                              delegate: nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+        [alert release];
+        
+        
+    }
+    
+    [nct release];
+
+
+    
     
     
     
@@ -221,13 +243,34 @@
 
 -(void) checkInToClass:(id) sender{
     
-    [checkInButton setEnabled:NO];
+    NetworkConnectionTest *nct = [[NetworkConnectionTest alloc ] init];
     
-    [self showLoadingIndicator];
+    if ([nct internetConnectionExists]==YES) {
+        [checkInButton setEnabled:NO];
+        
+        [self showLoadingIndicator];
+        
+        
+        [NSThread detachNewThreadSelector:@selector(checkInToClassBackground) toTarget:self withObject:nil];
+
+    } else {
+        
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle: @""
+                              message: @"The device is not currently connected to the Internet."
+                              delegate: nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+        [alert release];
+        
+        
+    }
     
+    [nct release];
+
     
-    [NSThread detachNewThreadSelector:@selector(checkInToClassBackground) toTarget:self withObject:nil];
-    
+        
     }
 
 

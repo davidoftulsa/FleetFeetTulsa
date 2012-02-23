@@ -7,6 +7,7 @@
 //
 
 #import "EmailEntryViewController.h"
+#import "NetworkConnectionTest.h"
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 
@@ -80,9 +81,30 @@
 {
     [sender resignFirstResponder];
     
-    [self showLoadingIndicator];
+    NetworkConnectionTest *nct = [[NetworkConnectionTest alloc ] init];
     
-    [self fetchCustomers];
+    if ([nct internetConnectionExists]==YES) {
+        [self showLoadingIndicator];
+        
+        [self fetchCustomers];
+    } else {
+        
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle: @""
+                              message: @"The device is not currently connected to the Internet."
+                              delegate: nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+        [alert release];
+
+        
+    }
+    
+    [nct release];
+        
+    
+   
     
     //functionality for send button to send text to next page goes here
     
