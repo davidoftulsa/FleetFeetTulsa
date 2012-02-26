@@ -42,10 +42,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIBarButtonItem *LoadClassesButton = [[UIBarButtonItem alloc] initWithTitle:@"Classes" style:UIBarButtonItemStylePlain target:self action:@selector(LoadClasses:)];
-    self.navigationItem.rightBarButtonItem = LoadClassesButton;
-    self.navigationItem.rightBarButtonItem.enabled = NO;
-    [LoadClassesButton release];
+    //UIBarButtonItem *LoadClassesButton = [[UIBarButtonItem alloc] initWithTitle:@"Classes" style:UIBarButtonItemStylePlain target:self action:@selector(LoadClasses:)];
+    //self.navigationItem.rightBarButtonItem = LoadClassesButton;
+    //self.navigationItem.rightBarButtonItem.enabled = NO;
+    //[LoadClassesButton release];
     
     //[self showLoadingIndicator];
     
@@ -140,37 +140,6 @@
 }
 
 /*
-- (void)fetchCustomers
-{
-    
-    PFQuery *query = [PFQuery queryWithClassName:@"Customer"];
-    [query whereKey:@"EmailAddress" equalTo:self.studentEmail];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
-            // The find succeeded.
-            
-            [self setCustomers:objects];
-            //customers = objects;  
-            
-            
-            
-            
-            [self.tableView reloadData];
-            
-        } else {
-            // Log details of the failure
-            NSLog(@"Error: %@ %@", error, [error userInfo]);
-        }
-    }];
-    
-    
-    //  dispatch_async(dispatch_get_main_queue(), ^{
-    //
-    //  });
-    //});
-}
-*/
-/*
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
  {
@@ -213,31 +182,22 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    self.navigationItem.rightBarButtonItem.enabled = YES;
-}
-
--(void) LoadClasses: (id)sender
-
-{
-    // Get Student ID to pass to next screen
-    
+ 
     PFObject *customer = [customers objectAtIndex:[[myTableView indexPathForSelectedRow] row]];
-   
+    
     NSString *customerId = [customer objectId];
-    
-    
-    // Pass control to page 3
     
     ClassListViewController * classListViewController = 
     [[ClassListViewController alloc]  
-      initWithNibName:@"ClassListViewController" 
-      bundle:nil andCustomerId:customerId];
+     initWithNibName:@"ClassListViewController" 
+     bundle:nil andCustomerId:customerId];
     
     [self.navigationController pushViewController:classListViewController animated:YES];
     
     [classListViewController release];
     
 }
+
 
 -(void)showLoadingIndicator{
     rView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 110, 164, 164)];

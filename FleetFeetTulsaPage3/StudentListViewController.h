@@ -25,7 +25,6 @@
 @property (nonatomic, retain) NSString * studentId;
 
 
-//-(void) fetchCustomers;
 -(void) showLoadingIndicator;
 -(void) hideLoadingIndicator;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andCustomers:(NSArray *) clist;

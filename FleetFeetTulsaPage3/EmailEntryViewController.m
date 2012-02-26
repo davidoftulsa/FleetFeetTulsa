@@ -22,7 +22,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        [[self navigationItem] setTitle:@"Class Check-in"];
+        [[self navigationItem] setTitle:@"Fleet Feet Tulsa"];
         
         UIScreen *mainScreen = [UIScreen mainScreen];
         CGFloat scale = [mainScreen scale]; //gets scale (2.0 for retina display, 1.0 all others)
