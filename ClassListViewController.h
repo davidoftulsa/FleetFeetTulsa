@@ -17,7 +17,6 @@
     IBOutlet UIBarButtonItem *checkInButton;
     IBOutlet UIBarButtonItem *editButton;
     NSString *customerId;
-    NSArray *classCheckIns;
     NSArray *customerClassesToday;
     NSMutableArray *customerCalendarClasses;
     NSMutableArray *customerRegisteredClasses;    
@@ -30,7 +29,6 @@
 }
 
 @property (nonatomic, retain) UITableView* myTableView;
-@property (nonatomic, retain) NSArray *classesCheckIns;
 @property (nonatomic, retain) NSMutableArray *customerClassCheckIns;
 @property (nonatomic, retain) CLLocationManager *locationManager;
 @property (nonatomic, retain) CLLocation *myLocation;

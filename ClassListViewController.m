@@ -16,7 +16,6 @@
 @synthesize myTableView;
 @synthesize locationManager;
 @synthesize myLocation;
-@synthesize classesCheckIns;
 @synthesize customerId;
 @synthesize customerCalendarClasses;
 @synthesize customerClassesToday;
@@ -33,11 +32,10 @@
         [self.locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
         [self.locationManager setDistanceFilter:100.0f];
         [self.locationManager startUpdatingLocation];
-        self.myLocation = [[CLLocation alloc] init];
-        self.customerRegisteredClasses = [[NSMutableArray alloc] init];
-        self.customerCalendarClasses = [[NSMutableArray alloc] init];
+        //self.myLocation = [[CLLocation alloc] init];
+        self.customerRegisteredClasses = [[[NSMutableArray alloc] init] autorelease];
+        self.customerCalendarClasses = [[[NSMutableArray alloc] init] autorelease];
         self.customerId = [NSString stringWithString:cid];
-        [self setCustomerId:cid];
     } 
     
     return self;
@@ -148,7 +146,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return customerCalendarClasses.count;    
+    return self.customerCalendarClasses.count;    
 }
 
 // Customize the appearance of table view cells.
@@ -158,9 +156,14 @@
     static NSString *CellIdentifier = @"ClassListCustomCell";
 	
     ClassListCustomCell *cell = (ClassListCustomCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
     if (cell == nil) {
         
-		NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"ClassListCustomCell" owner:self options:nil];
+		
+        
+        
+        
+         NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"ClassListCustomCell" owner:self options:nil];
 		
 		for (id currentObject in topLevelObjects){
 			if ([currentObject isKindOfClass:[UITableViewCell class]]){
@@ -168,7 +171,10 @@
 				break;
 			}
 		}
+    
+        
 	}
+    
     
     
     PFObject *customerClass = [customerCalendarClasses objectAtIndex:indexPath.row];
@@ -246,6 +252,7 @@
            fromLocation:(CLLocation *)oldLocation
 {
     self.myLocation = newLocation;
+    
 }
 
 - (void)locationManager:(CLLocationManager *)manager
@@ -328,7 +335,7 @@
         
         PFQuery *query = [PFQuery queryWithClassName:@"Locations"];
     
-        [query whereKey:@"Coordinates" nearGeoPoint:userPoint withinKilometers:.5];
+        [query whereKey:@"Coordinates" nearGeoPoint:userPoint withinKilometers:50];
     
         NSNumber *placesObjects  = [NSNumber numberWithInt:[query countObjects]];
         
@@ -488,6 +495,8 @@
             
             [self hideLoadingIndicator];
             
+            [df1 release];
+            
             
             
             
@@ -554,8 +563,13 @@
 - (void)dealloc {
     [self.customerRegisteredClasses release];
     [self.customerClassesToday release];
+    [self.customerCalendarClasses release];
+    [self.customerClassCheckIns release];
     [self.locationManager release];
     [self.myLocation release];
+    [self.customerId release];
+    [checkInButton release];
+    [editButton release];
     [super dealloc];
 }
 

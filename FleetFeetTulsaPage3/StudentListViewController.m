@@ -193,8 +193,8 @@
      bundle:nil andCustomerId:customerId];
     
     [self.navigationController pushViewController:classListViewController animated:YES];
-    
     [classListViewController release];
+    
     
 }
 
