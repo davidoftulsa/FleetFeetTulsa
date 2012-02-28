@@ -338,7 +338,7 @@
         
         PFQuery *query = [PFQuery queryWithClassName:@"Locations"];
     
-        [query whereKey:@"Coordinates" nearGeoPoint:userPoint withinKilometers:50];
+        [query whereKey:@"Coordinates" nearGeoPoint:userPoint withinKilometers:1];
     
         NSNumber *placesObjects  = [NSNumber numberWithInt:[query countObjects]];
         
