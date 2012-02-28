@@ -207,8 +207,11 @@
     
     [enUSPOSIXLocale release];
     [df1 release];
+     
+     
     
     return cell;
+     
 
 }
 
@@ -431,6 +434,7 @@
 
 -(void) fetchCustomerClasses{
     
+
     PFQuery *query = [PFQuery queryWithClassName:@"ClassRegistration"];
     [query whereKey:@"CustomerId" equalTo:self.customerId];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -496,6 +500,7 @@
             [self hideLoadingIndicator];
             
             [df1 release];
+     
             
             
             
@@ -505,8 +510,7 @@
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];
-    
-    
+     
 }
 
 
@@ -522,8 +526,9 @@
 -(void) toggleTableViewEditMode {
     
     if([editButton.title isEqualToString:@"Edit"]){
-    [self.myTableView setEditing:YES animated:YES];
-    [editButton setTitle:@"Done"];
+        [self.myTableView setEditing:YES animated:YES];
+        [editButton setTitle:@"Done"];
+        [checkInButton setEnabled:NO];    
     } else
     {
         [self.myTableView setEditing:NO animated:YES];
@@ -538,7 +543,6 @@
 -(void)showLoadingIndicator{
         rView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 110, 164, 164)];
         [rView setImage:[UIImage imageNamed:@"spinnerBackground.png"]];
-        //[rView setBackgroundColor:[UIColor lightGrayColor]];
         spinnerView = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(62, 60, 40, 40)];
         [spinnerView setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
         [spinnerView startAnimating];
@@ -561,6 +565,7 @@
 
 
 - (void)dealloc {
+    
     [self.customerRegisteredClasses release];
     [self.customerClassesToday release];
     [self.customerCalendarClasses release];
@@ -570,7 +575,8 @@
     [self.customerId release];
     [checkInButton release];
     [editButton release];
-    [super dealloc];
+    
+       [super dealloc];
 }
 
     

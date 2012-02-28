@@ -30,7 +30,7 @@
     self.emailEntryViewController = [[[EmailEntryViewController alloc] initWithNibName:@"EmailEntryViewController" bundle:nil] autorelease];
     
     // emailEntryViewController = [[EmailEntryViewController alloc]init];
-    self.navController = [[UINavigationController alloc]initWithRootViewController:emailEntryViewController];
+    self.navController = [[[UINavigationController alloc]initWithRootViewController:emailEntryViewController] autorelease];
     
     //[navController pushViewController:self.emailEntryViewController animated:YES];
     
@@ -38,7 +38,7 @@
     //[self.window addSubview:navController.view];
     //self.window.rootViewController = self.viewController;
     
-    //[navController release]; ????
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
