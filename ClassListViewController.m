@@ -555,6 +555,7 @@
 -(void)hideLoadingIndicator{
 	[spinnerView removeFromSuperview];
 	[rView removeFromSuperview];
+    [spinnerView release];
 }
 
 -(void) userLogout{
@@ -575,8 +576,7 @@
     [self.customerId release];
     [checkInButton release];
     [editButton release];
-    
-       [super dealloc];
+    [super dealloc];
 }
 
     

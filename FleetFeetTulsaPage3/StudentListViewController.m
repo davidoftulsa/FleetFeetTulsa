@@ -214,6 +214,14 @@
 -(void)hideLoadingIndicator{
 	[spinnerView removeFromSuperview];
 	[rView removeFromSuperview];
+    [spinnerView release];
+    
+}
+
+-(void) dealloc{
+
+    [self.customers release];
+    [super dealloc];
 }
 
 

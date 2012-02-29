@@ -187,7 +187,6 @@
 -(void)showLoadingIndicator{
     rView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 110, 164, 164)];
     [rView setImage:[UIImage imageNamed:@"spinnerBackground.png"]];
-    //[rView setBackgroundColor:[UIColor lightGrayColor]];
     spinnerView = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(62, 60, 40, 40)];
     [spinnerView setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
     [spinnerView startAnimating];
@@ -200,6 +199,8 @@
 -(void)hideLoadingIndicator{
 	[spinnerView removeFromSuperview];
 	[rView removeFromSuperview];
+    [spinnerView release];
+    
 }
 
 
@@ -207,15 +208,6 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    
-    //[self.emailTextfield setText:@""];//***** This erases the email address. 
-    //May want this on page 2 or 3 ??????
-    
-    //[emailTextfield release]; ***** Should this go here instead of dealloc method?
-    
-    
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
     
 }
 
